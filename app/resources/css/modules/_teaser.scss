@@ -1,0 +1,56 @@
+.main article aside .teaser {
+	background: $pink;
+	color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 3px;
+
+	ul {
+		margin-top: 10px;
+		padding-left: 15px;
+	}
+
+	h3 {
+		margin: 0;
+	    font-size: 18px;
+	}
+
+	a {
+		color: #fff;
+		text-decoration: underline;
+	}
+
+	p.link {
+		text-align: center;
+		font-weight: bold;
+	}
+
+	a.button {
+	    background: none repeat scroll 0 0 #FFFFFF;
+	    color: $pink;
+	    display: block;
+	    font-size: 18px;
+	    font-weight: bold;
+	    margin: 0 auto 10px;
+	    padding: 5px 0 7px;
+	    text-align: center;
+	    text-decoration: none;
+	    width: 75%;
+		-webkit-box-shadow: 0px 0px 8px 0px #666;
+		box-shadow: 0px 0px 8px 0px #666;
+	}
+
+	a.button.disabled {
+		cursor: default;
+		background: transparent;
+		color: #fff;
+		box-shadow: none;
+	}
+
+	.footnote {
+		font-size: 14px;
+		line-height: 20px;
+		text-align: center;
+	}
+
+}

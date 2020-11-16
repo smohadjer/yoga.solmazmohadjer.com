@@ -1,0 +1,12 @@
+/.tmp
+app/resources/bower_components
+/dist
+/node_modules
+/npm-debug.log
+.DS_Store
+app/resources/css/*.css
+app/resources/css/*.css.map
+app/resources/js/handlebars.templates.js
+app/generated
+/**/nodejsPath.php
+.sass-cache

@@ -1,0 +1,136 @@
+header {
+	padding: 20px 0 10px;
+	text-align: center;
+	position: relative;
+
+	@media (min-width: 768px) {
+		padding: 25px 0 20px;
+		text-align: left;
+	}
+
+	.logo-icon {
+		position: absolute;
+		left: 0;
+		margin-top: 2px;
+
+		img {
+			@media (max-width: 767px) {
+				width: 50px;
+			}
+		}
+	}
+
+	.logo {
+		text-align: center;
+
+		@media (min-width: 768px) {
+			text-align: left;
+			margin-left: 75px;
+		}
+
+		.tagline {
+			margin-bottom: 20px;
+			font-size: 20px;
+
+			@media (min-width: 768px) {
+				margin-top: 10px;
+				font-size: 24px;
+			}
+		}
+
+		@media (min-width: 768px) {
+			display: inline-block;
+		}
+	}
+
+	h1 {
+		margin: 0 0 10px;
+
+		@media (min-width: 768px) {
+			float: left;
+		}
+	}
+
+	h2 {
+		font-size: 18px;
+	}
+
+	p {
+		margin: 0;
+		font-size: 22px;
+		line-height: 26px;
+
+		@media (min-width: 768px) {
+			font-size: 28px;
+			line-height: 28px;
+		}
+	}
+
+	p.tagline {
+		@media (max-width: 767px) {
+			font-size: 17px;
+
+		}
+
+		font-size: 18px;
+	}
+
+	p.title {
+		font-weight: bold;
+
+		@media (max-width: 767px) {
+			font-size: 26px;
+			margin-bottom: 3px;
+		}
+	}
+
+	nav {
+		@media (min-width: 768px) {
+			float: right;
+		}
+
+		ul {
+			margin: 10px 0 20px;
+			border-top: solid 1px #ccc;
+			border-bottom: solid 1px #ccc;
+			padding: 5px 0;
+
+			@media (min-width: 768px) {
+				margin: 20px 0 30px;
+				margin-top: 0;
+				border: none;
+				padding: 0;
+			}
+
+			li {
+				float: left;
+				margin-right: 13px;
+				font-size: 15px;
+
+				@media (min-width: 768px) {
+					font-size: 16px;
+					margin-right: 0;
+					margin-left: 20px;
+				}
+
+				@media (min-width: 1024px) {
+					font-size: 18px;
+
+				}
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				&.selected a {
+					color: #333;
+
+					&:hover {
+						text-decoration: none;
+						cursor: default;
+					}
+				}
+			}
+		}
+	}
+}

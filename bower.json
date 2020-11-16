@@ -1,0 +1,8 @@
+{
+	"name": "SolmazWebsite",
+	"private": true,
+	"dependencies": {
+		"filterList": "smohadjer/filterList#3.1.0"
+	},
+	"devDependencies": {}
+}

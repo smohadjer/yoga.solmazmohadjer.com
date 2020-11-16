@@ -1,0 +1,33 @@
+{
+	"name": "solmazmohadjer",
+	"version": "1.0.0",
+	"description": "Yoga Courses",
+	"repository": {
+		"type": "git",
+		"url": "https://bitbucket.org/smohadjer/solmazmohadjer.com"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"chokidar": "3.1.0",
+		"del": "2.2.0",
+		"express": "^4.16.2",
+		"gulp": "3.9.1",
+		"gulp-concat": "2.6.0",
+		"gulp-debug": "^3.0.0",
+		"gulp-declare": "0.3.0",
+		"gulp-handlebars": "^5.0.2",
+		"gulp-if": "^2.0.0",
+		"gulp-sass": "3.1.0",
+		"gulp-uglify": "^1.5.1",
+		"gulp-useref": "^3.1.6",
+		"gulp-wrap": "^0.15.0",
+		"handlebars": "^4.2.0",
+		"moment": "^2.24.0",
+		"require-dir": "^1.2.0",
+		"run-sequence": "^2.2.1",
+		"gulp-npm-dist": "^0.1.6"
+	},
+	"dependencies": {
+		"youtube-playlist": "git+https://github.com/smohadjer/youtube-playlist.git#1.1.0"
+	}
+}

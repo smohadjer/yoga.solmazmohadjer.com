@@ -1,0 +1,146 @@
+ul.list {
+	margin: 0;
+	padding: 0;
+
+	li {
+		list-style-type: none;
+		border-bottom: solid 1px #ccc;
+		overflow: auto;
+
+		&:last-of-type,
+		&.last-visible {
+			border-bottom: none;
+		}
+
+		a {
+			color: $pink;
+		}
+
+		h1 {
+			font-size: 1em;
+			margin: 5px 0 0;
+
+
+			@media (min-width: 768px) {
+				font-size: 1.2em;
+				margin: 7px 0 0;
+
+			}
+		}
+
+		p {
+			margin: 0;
+			line-height: 20px;
+			font-size: 14px;
+
+			@media (min-width: 768px) {
+				font-size: 16px;
+				line-height: 22px;
+			}
+		}
+
+		time {
+			background: $pinklight;
+			padding: 20px 5px;
+			float: right;
+			text-align: center;
+			width: 30%;
+			font-family: arial, verdana, sans-serif;
+			margin-left: 5px;
+
+			@media (min-width: 768px) {
+				padding: 15px 10px;
+				width: 20%;
+				margin-left: 20px;
+			}
+
+			.dayofweek {
+				display: block;
+				font-size: 1em;
+				line-height: 1.2em;
+			}
+
+			.monthday {
+				display: block;
+				font-weight: bold;
+				font-size: 1.5em;
+				line-height: 1.3em;
+			}
+
+			.hours {
+				font-size: 14px;
+
+				@media (min-width: 768px) {
+					font-size: 1em;
+				}
+			}
+		}
+	}
+
+	+ .hint {
+		margin: 30px 0;
+		display: none;
+	}
+
+	&.is-empty + .hint {
+		display: block;
+	}
+}
+
+.home ul.list li.today {
+	@media (min-width: 900px) {
+		time {
+			.dayofweek {
+				font-size: 1.8em;
+				font-weight: bold;
+				margin-bottom: 10px;
+			}
+
+			.monthday {
+				display: none;
+			}
+
+			.hours {
+					font-size: 1.6em;
+				}
+		}
+	}
+}
+
+
+.filters {
+	padding: 10px 15px;
+	background: #bf4d8b;
+	margin: 0 0 10px;
+
+	span {
+		color: #fff;
+
+		@media (max-width: 767px) {
+			display: block;
+			margin-bottom: 5px;
+
+			label {
+				display: inline-block;
+				min-width: 60px;
+				margin: 0 10px 0 0;
+			}
+		}
+
+		select {
+			margin-right: 30px;
+		}
+	}
+
+	span:last-child select {
+		margin-right: 0;
+	}
+}
+
+/*
+button.more {
+	padding: 10px 20px;
+	display: block;
+	margin: 20px auto;
+}
+*/

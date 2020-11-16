@@ -1,0 +1,80 @@
+.teachers {
+	> .teacher {
+		padding-bottom: 30px;
+		border-bottom: dotted 1px #999;
+		margin-bottom: 50px;
+
+		&:last-child {
+			border-bottom: none;
+			padding-bottom: 0;
+			margin-bottom: 0;
+		}
+
+		@media (min-width: 768px) {
+			> h2 {
+				margin-bottom: 20px;
+			}
+
+			> figure {
+				float: left;
+				width: 45%;
+				margin-right: 5%;
+			}
+		}
+	}
+
+	.teacher__section {
+		@media (min-width: 768px) {
+			overflow: auto;
+			margin-left: 50%;
+		}
+
+		&--empty {
+			display: none;
+		}
+
+		> h3:first-child {
+			margin-top: 0;
+		}
+	}
+
+	.news {
+		margin-top: 30px;
+
+		figure {
+
+			@media (max-width: 767px) {
+				+ figure {
+					margin-top: 30px;
+				}
+			}
+
+			@media (min-width: 768px) {
+				margin-right: 5%;
+				float: left;
+				width: 45%;
+			}
+
+			figcaption {
+				margin-top: 10px;
+				line-height: 1.3em;
+
+				p {
+					margin-top: 10px;
+				}
+			}
+		}
+	}
+
+	ul.list {
+		margin-bottom: 10px;
+
+		li {
+			border-top: 1px solid #ccc;
+			border-bottom: 1px solid #ccc !important;
+
+			h1 {
+			}
+		}
+	}
+}

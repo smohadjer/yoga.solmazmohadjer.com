@@ -1,0 +1,17 @@
+<li {{#if class}} class="{{class}}" {{/if}} data-filter-teacher-id="{{#each teachers}}{{this.id}}{{/each}}" data-filter-class-id="{{courseId}}">
+	<time>
+		<span class="dayofweek">{{dayofweek}}</span>
+		<span class="monthday">{{month}} {{daynumber}}</span>
+		<span class="hours">{{hours}}</span>
+	</time>
+	<h1><a href="classes.php?id={{courseId}}">{{courseName}}</a></h1>
+	<p class="teacher"><strong>Teacher:</strong>
+		{{#each teachers}}
+			{{#if this.hasPage}}
+				<a href="teachers.php?id={{this.id}}">{{this.name}}</a>{{else}}
+				{{this.name}}{{/if}}{{#ifCond ../teachers.length '>' 1}}{{#unless @last}},{{/unless}}{{/ifCond}}
+		{{/each}}
+	 </p>
+	<p class="level"><strong>Level:</strong> {{level}}</p>
+	<p class="address"><strong>At:</strong> {{address}}</p>
+</li>
