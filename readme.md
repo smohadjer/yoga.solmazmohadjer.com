@@ -1,22 +1,21 @@
-URL: http://solmazmohadjer.com/
-Repo: https://bitbucket.org/smohadjer/solmazmohadjer.com.git
+Live site: http://yoga.solmazmohadjer.com/
+Repository: https://github.com/smohadjer/yoga.solmazmohadjer.com
 
 ##Requirements:
 PHP 5.6.28
 nodejs
 - - -
 
-##Running Website on localhost (http://localhost/solmaz/app/)
-- $ git clone https://smohadjer@bitbucket.org/smohadjer/solmazmohadjer.com.git solmaz
+## Running Website on localhost
+- $ git clone repository
 - $ npm install
 - $ bower install
 - $ gulp serve
 
-##Building Website on localhost
+## Building Website on localhost
 - $ gulp build
-- - -
 
-##First time deployment to live server
+## First time deployment to live server
 - Add a domain in plesk with correct username for new Website
 - $ gulp build and then copy built files from dist folder to Website's root folder via ftp
 - ssh username@83.169.4.180
