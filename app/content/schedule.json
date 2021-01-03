@@ -1,8 +1,8 @@
 {
 	"config": {
-		"end": "2020-12-31",
+		"end": "2021-12-31",
 		"active-classes": ["108-surya-namaskar", "hatha-at-info", "weekend", "vinyasa-yoga"],
-		"active-teachers": ["solmaz", "miguel", "philipp", "peter", "aurelie", "pamela", "anna"],
+		"active-teachers": ["solmaz", "miguel", "peter", "anna"],
 		"teachers-list": [
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
 			{"name": "Miguel", "id": "miguel", "hasPage": true},
@@ -14,12 +14,8 @@
 		],
 		"classes-list": [
 			{"name": "Hatha Yoga", "id": "hatha-at-info"},
-			{"name": "Hatha at FBS", "id": "hatha-at-fbs"},
 			{"name": "108 Surya Namaskar", "id": "108-surya-namaskar"},
-			{"name": "Weekend Yoga", "id": "weekend"},
-			{"name": "Yin Yoga", "id": "yin"},
-			{"name": "Yoga for Meditation", "id": "yoga-for-meditation"},
-			{"name": "Hatha Yoga at Clubhaus", "id": "vinyasa-yoga"}
+			{"name": "Weekend Yoga", "id": "weekend"}
 		]
 	},
 	"sessions": [
@@ -27,7 +23,7 @@
 			"title": "Hatha Yoga",
 			"class-id": "hatha-at-info",
 			"level": "All",
-			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
+			"address": "Online",
 			"repeats": true,
 			"dates": [
 				{"date": "2019-09-02", "teacher-id": "miguel"},
@@ -40,7 +36,7 @@
 			"end-time": "19:30",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2020-03-01",
+			"end-date": "2021-02-01",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2019-12-23"},
@@ -67,7 +63,7 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2020-02-27"}
-				
+
 			]
 		},
 		{
