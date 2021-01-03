@@ -7,9 +7,6 @@
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
 			{"name": "Miguel", "id": "miguel", "hasPage": true},
 			{"name": "Peter", "id": "peter", "hasPage": true},
-			{"name": "Philipp", "id": "philipp", "hasPage": true},
-			{"name": "Aurelie", "id": "aurelie", "hasPage": true},
-			{"name": "Pamela", "id": "pamela", "hasPage": true},
 			{"name": "Anna", "id": "anna", "hasPage": true}
 		],
 		"classes-list": [
@@ -26,9 +23,7 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2019-09-02", "teacher-id": "miguel"},
-				{"date": "2019-10-14", "teacher-id": ["solmaz", "anna"]},
-				{"date": "2020-01-13", "teacher-id": "anna"}
+				{"date": "2019-09-02", "teacher-id": "miguel"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Monday",
@@ -39,16 +34,14 @@
 			"end-date": "2021-02-01",
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2019-12-23"},
-				{"date": "2019-12-30"},
-				{"date": "2020-01-06"}
+				{"date": "2019-12-23"}
 			]
 		},
 		{
 			"title": "Hatha Yoga",
 			"class-id": "hatha-at-info",
 			"level": "All",
-			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
+			"address": "Online",
 			"repeats": true,
 			"dates": [
 				{"date": "2020-02-13", "teacher-id": "solmaz"}
@@ -59,7 +52,7 @@
 			"end-time": "19:30",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2020-03-01",
+			"end-date": "2021-02-01",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2020-02-27"}
