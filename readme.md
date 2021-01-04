@@ -24,7 +24,8 @@ nodejs
 - $ npm install chokidar moment handlebars
 - if there is no .ssh folder in user's home directory run $ ssh-keygen to create ssh files and then
 copy user's public ssh key to bitbucket repo and also run ssh -T git@bitbucket.org to add bitbucket's publick ssh key to your known_hosts in .ssh folder
-- To generate nodejsPath.php on server go to /var/www/vhosts/solmazmohadjer.com/ and run: ./app/nodejsPath.sh  (./<fileName> runs a shell script)
+- To generate nodejsPath.php on server go to /var/www/vhosts/solmazmohadjer.com/yoga.solmazmohadjer.com and run: ./app/nodejsPath.sh  (./<fileName> runs a shell script). If you get a "Keine Berechtigung" error, then it could that nodejsPath.sh is not executable. In that case run: chmod +x nodejsPath.sh to make it executable.
+
 
 - - -
 
