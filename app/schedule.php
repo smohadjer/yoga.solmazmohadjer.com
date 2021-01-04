@@ -33,7 +33,6 @@ exec($pathToNodejs . ' jsonToHtml', $output);
 				<?php include('generated/sessions.html'); ?>
 			</ul>
 			<p class="hint">No sessions were found!</p>
-			<button class="more">Show more sessions</button>
 		</div>
 
 		<?php include('include/footer.php'); ?>

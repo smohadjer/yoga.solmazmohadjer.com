@@ -29,7 +29,7 @@ define('SECRET_ACCESS_TOKEN', 'deploy9665!');
  * @var string
  */
 
-define('REMOTE_REPOSITORY', 'git@bitbucket.org:smohadjer/solmazmohadjer.com.git');
+define('REMOTE_REPOSITORY', 'https://github.com/smohadjer/yoga.solmazmohadjer.com');
 
 /**
  * The branch that's being deployed.
@@ -46,7 +46,7 @@ define('BRANCH', 'master');
  * @var string Full path including the trailing slash
  */
 //define('TARGET_DIR', '/is/htdocs/wp11222902_WNLKFK0OHC/www/live/solmazmohadjer.com/');
-define('TARGET_DIR', '/var/www/vhosts/solmazmohadjer.com/');
+define('TARGET_DIR', '/var/www/vhosts/solmazmohadjer.com/yoga.solmazmohadjer.com/');
 
 
 /**
