@@ -11,8 +11,8 @@
 		],
 		"classes-list": [
 			{"name": "Hatha Yoga", "id": "hatha-at-info"},
-			{"name": "108 Surya Namaskar", "id": "108-surya-namaskar"},
-			{"name": "Weekend Yoga", "id": "weekend"}
+			{"name": "Sunday Yoga", "id": "weekend"},
+			{"name": "108 Surya Namaskar", "id": "108-surya-namaskar"}
 		]
 	},
 	"sessions": [
