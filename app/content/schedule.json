@@ -91,7 +91,7 @@
 			"end-time": "19:00",
 			"teacher-id": "anna",
 			"start-date": null,
-			"end-date": null,
+			"end-date": "2021-02-01",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2020-03-08"}
