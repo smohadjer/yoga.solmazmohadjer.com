@@ -3,9 +3,11 @@
 //sets value for $pathToNodejs variable
 include('nodejsPath.php');
 
-//generating include/sessions.html
-exec($pathToNodejs . ' jsonToHtml', $output);
-//echo $output[0];
+// for local machine use this:
+exec($pathToNodejs . ' jsonToHtml');
+
+// for production use this:
+//exec('node jsonToHtml');
 ?>
 
 <?php include('include/head.php'); ?>
@@ -33,7 +35,6 @@ exec($pathToNodejs . ' jsonToHtml', $output);
 				<?php include('generated/sessions.html'); ?>
 			</ul>
 			<p class="hint">No sessions were found!</p>
-			<button class="more">Show more sessions</button>
 		</div>
 
 		<?php include('include/footer.php'); ?>
