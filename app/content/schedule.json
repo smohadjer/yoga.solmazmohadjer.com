@@ -66,15 +66,16 @@
 			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
 			"repeats": false,
 			"dates": [
-				{"date": "2019-08-23", "teacher-id": ["solmaz", "anna"]},
-				{"date": "2019-09-23", "teacher-id": "solmaz"},
-				{"date": "2019-12-19", "teacher-id": "solmaz"}
+				{"date": "2021-03-22", "teacher-id": "solmaz"},
+				{"date": "2021-06-21", "teacher-id": "solmaz"},
+				{"date": "2021-09-23", "teacher-id": "miguel"},
+				{"date": "2021-12-20", "teacher-id": "solmaz"}
 			],
 			"start-time": "18:00",
 			"end-time": "19:30",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2021-02-01",
+			"end-date": "2021-12-22",
 			"booking-url": null,
 			"cancelations": null
 		},
