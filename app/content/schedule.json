@@ -6,7 +6,7 @@
 		"teachers-list": [
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
 			{"name": "Miguel", "id": "miguel", "hasPage": true},
-			{"name": "Anna", "id": "anna", "hasPage": true}
+			{"name": "Anna", "id": "anna", "hasPage": true},
 			{"name": "Peter", "id": "peter", "hasPage": true}
 		
 		],
@@ -29,7 +29,7 @@
 			"repeat-cycle": "week",
 			"day-of-week": "Monday",
 			"start-time": "18:00",
-			"end-time": "19:30",
+			"end-time": "19:00",
 			"teacher-id": "solmaz",
 			"start-date": null,
 			"end-date": "2021-02-28",
@@ -50,7 +50,7 @@
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
 			"start-time": "18:00",
-			"end-time": "19:30",
+			"end-time": "19:00",
 			"teacher-id": "miguel",
 			"start-date": null,
 			"end-date": "2021-03-28",
@@ -72,7 +72,7 @@
 			"repeat-cycle": "week",
 			"day-of-week": "Sunday",
 			"start-time": "18:00",
-			"end-time": "19:00",
+			"end-time": "19:00 CET",
 			"teacher-id": "anna",
 			"start-date": null,
 			"end-date": "2021-02-01",
