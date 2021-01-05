@@ -74,7 +74,7 @@
 			"end-time": "19:30",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": null,
+			"end-date": "2021-02-01",
 			"booking-url": null,
 			"cancelations": null
 		},
@@ -82,28 +82,19 @@
 			"title": "Weekend Yoga",
 			"class-id": "weekend",
 			"level": "All",
-			"address": "InFö, Mauerstr. 2, 72070 Tübingen",
-			"repeats": false,
+			"address": "Online",
+			"repeats": true,
 			"dates": [
-				{"date": "2020-01-12", "teacher-id": "miguel", "title": "Yoga Nidra"},
-				{"date": "2020-01-19", "teacher-id": "aurelie", "title": "Iyengar Yoga"},
-				{"date": "2020-01-26", "teacher-id": "philipp", "title": "Yoga & Poetry"},
-				{"date": "2020-02-02", "teacher-id": "peter", "title": "Sivananda Yoga"},
-				{"date": "2020-02-09", "teacher-id": "miguel", "title": "Yoga Nidra"},
-				{"date": "2020-02-16", "teacher-id": "solmaz", "title": "Yoga for back pain"},
-				{"date": "2020-02-23", "teacher-id": "anna", "title": "Flow Yoga"}
+				{"date": "2020-01-12", "teacher-id": "miguel", "title": "Yoga Nidra"}
 			],
 			"start-time": "18:00",
 			"end-time": "19:00",
-			"teacher-id": "miguel",
+			"teacher-id": "anna",
 			"start-date": null,
 			"end-date": null,
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2020-03-08"},
-				{"date": "2020-03-15"},
-				{"date": "2020-03-22"},
-				{"date": "2020-03-29"}
+				{"date": "2020-03-08"}
 			]
 		},
 		{
