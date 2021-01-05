@@ -87,6 +87,8 @@
 			"dates": [
 				{"date": "2020-01-12", "teacher-id": "miguel", "title": "Yoga Nidra"}
 			],
+			"repeat-cycle": "week",
+			"day-of-week": "Sunday",
 			"start-time": "18:00",
 			"end-time": "19:00",
 			"teacher-id": "anna",
