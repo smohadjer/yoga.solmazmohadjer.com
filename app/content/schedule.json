@@ -1,7 +1,7 @@
 {
 	"config": {
 		"end": "2021-12-31",
-		"active-classes": ["108-surya-namaskar", "hatha-at-info", "weekend", "vinyasa-yoga"],
+		"active-classes": ["108-surya-namaskar", "hatha-at-info", "weekend"],
 		"active-teachers": ["solmaz", "miguel", "peter", "anna"],
 		"teachers-list": [
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
