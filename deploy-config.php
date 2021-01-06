@@ -60,7 +60,7 @@ define('TARGET_DIR', '/var/www/vhosts/solmazmohadjer.com/yoga.solmazmohadjer.com
  *
  * @var boolean
  */
-define('DELETE_FILES', false);
+define('DELETE_FILES', true);
 
 /**
  * The directories and files that are to be excluded when updating the code.
@@ -72,25 +72,25 @@ define('DELETE_FILES', false);
  */
 define('EXCLUDE', serialize(array(
 	'.git',
-	'.tmp',
 	'gulp-tasks',
 	'.bowerrc',
 	'.editorconfig',
 	'.gitignore',
 	'.gitattribute',
-	'bower.json',
 	'gulpfile.js',
-	'package.json',
-	'deploy.php',
-	'deploy-config.php',
+	'*.json',
 	'*.php',
-	'readme.md',
+	'*.md',
+	'app/api',
+	'app/hbs',
 	'app/include',
 	'app/backend',
 	'app/resources',
 	'app/*.php',
 	'app/*.js',
-	'app/*.sh'
+	'app/*.sh',
+	'app/.htaccess',
+	'app/.DS_Store'
 )));
 
 /**
