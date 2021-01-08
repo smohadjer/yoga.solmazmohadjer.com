@@ -24,7 +24,7 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2019-09-02", "teacher-id": "miguel"}
+				{"date": "2021-01-14", "teacher-id": "peter"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Monday",
