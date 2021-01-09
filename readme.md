@@ -15,10 +15,10 @@ nodejs
 ## Building Website on localhost
 - $ gulp build
 
-## Running api on localhost
+## Running rest api on localhost
 - CD to app folder in terminal (/Users/sm/Documents/solmaz/yoga.solmazmohadjer.com/app)
 - Run: node api/server
-- In browser go to http://localhost:12443/node/solmaz to see next class for teacher solmaz
+- In browser go to https://yoga.local:12443/node/solmaz to see next class for teacher solmaz
 
 ## First time deployment to live server
 - Add a domain in plesk with correct username for new Website
