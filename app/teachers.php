@@ -29,12 +29,16 @@
 					request.onload = function() {
 						if (request.status >= 200 && request.status < 400) {
 							var resp = request.responseText;
+							if (resp.length > 0) {
+								ul.parentNode.classList.remove('hidden');
+							}
 							ul.innerHTML = resp;
 							if (ul.querySelector('li') === null) {
 								ul.parentNode.classList.add('teacher__section--empty');
 							}
 						} else {
 							// We reached our target server, but it returned an error
+							console.log(request.status);
 						}
 					};
 

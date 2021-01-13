@@ -17,16 +17,13 @@ exports.findById = function(req, res) {
 	// for debugging path issues use process.cwd()
 	//console.log(process.cwd());
 
-	var testing = false;
-	var path = (testing) ? '../' : '';
-
-	var data = sessions.getJson('./' + path + 'content/schedule.json');
+	var data = sessions.getJson('./../content/schedule.json');
 	var yogaSessions = sessions.getSessions(data);
 	sessions.sortSessions(yogaSessions);
 	var session = sessions.getNextSession(yogaSessions, teacherId);
 
 	if (session) {
-		sessions.updateView([session], path + 'hbs/listing.hbs', undefined, function(html) {
+		sessions.updateView([session], '../hbs/listing.hbs', undefined, function(html) {
 			res.status(200).send(html);
 		});
 	} else {
