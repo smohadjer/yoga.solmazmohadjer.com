@@ -69,7 +69,7 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2020-01-12", "teacher-id": "miguel", "title": "Yoga Nidra"}
+				{"date": "2021-02-14", "teacher-id": "peter", "title": "Sivananda"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Sunday",
