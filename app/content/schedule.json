@@ -47,7 +47,7 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2021-01-14", "teacher-id": "peter"}
+				{"date": "2021-02-18", "teacher-id": "solmaz"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
