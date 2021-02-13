@@ -1,5 +1,6 @@
 {
 	"config": {
+		"test": true,
 		"end": "2021-12-31",
 		"active-classes": ["hatha-at-info", "weekend", "108-surya-namaskar"],
 		"active-teachers": ["solmaz", "miguel", "anna", "peter"],
