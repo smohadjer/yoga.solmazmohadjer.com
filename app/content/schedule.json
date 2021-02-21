@@ -70,7 +70,8 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2021-02-14", "teacher-id": "peter", "title": "Sivananda"}
+				{"date": "2021-02-14", "teacher-id": "peter", "title": "Sivananda"},
+				{"date": "2021-02-21", "teacher-id": "miguel"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Sunday",
