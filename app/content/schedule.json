@@ -33,7 +33,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2021-04-30",
+			"end-date": "2021-05-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2021-03-22"},
@@ -48,7 +48,8 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2021-02-18", "teacher-id": "solmaz"}
+				{"date": "2021-05-13", "teacher-id": "Anna"},
+				{"date": "2021-05-27", "teacher-id": "Anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
@@ -56,7 +57,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2021-04-30",
+			"end-date": "2021-05-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2021-09-23"}
@@ -79,7 +80,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "anna",
 			"start-date": null,
-			"end-date": "2021-04-30",
+			"end-date": "2021-05-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2020-03-08"}
