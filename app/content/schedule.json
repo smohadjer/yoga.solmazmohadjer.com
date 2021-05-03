@@ -48,8 +48,8 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2021-05-13", "teacher-id": "Anna"},
-				{"date": "2021-05-27", "teacher-id": "Anna"}
+				{"date": "2021-05-13", "teacher-id": "anna"},
+				{"date": "2021-05-27", "teacher-id": "anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
