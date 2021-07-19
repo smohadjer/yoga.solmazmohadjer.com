@@ -78,7 +78,11 @@
 			"repeats": true,
 			"dates": [
 				{"date": "2021-02-14", "teacher-id": "peter", "title": "Sivananda"},
-				{"date": "2021-07-18", "teacher-id": "miguel"}
+				{"date": "2021-07-18", "teacher-id": "miguel"},
+				{"date": "2021-08-01", "teacher-id": "miguel"},
+				{"date": "2021-08-08", "teacher-id": "miguel"},
+				{"date": "2021-08-15", "teacher-id": "miguel"},
+				{"date": "2021-08-29", "teacher-id": "miguel"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Sunday",
