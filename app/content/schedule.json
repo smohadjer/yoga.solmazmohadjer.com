@@ -53,7 +53,7 @@
 				{"date": "2021-08-05", "teacher-id": "anna"},
 				{"date": "2021-08-12", "teacher-id": "anna"},
 				{"date": "2021-08-19", "teacher-id": "anna"},
-				{"date": "2021-08-26", "teacher-id": "anna"}
+				{"date": "2021-09-02", "teacher-id": "anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
