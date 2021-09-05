@@ -82,7 +82,7 @@
 				{"date": "2021-08-01", "teacher-id": "miguel"},
 				{"date": "2021-08-08", "teacher-id": "miguel"},
 				{"date": "2021-08-15", "teacher-id": "miguel"},
-				{"date": "2021-08-29", "teacher-id": "miguel"}
+				{"date": "2021-09-05", "teacher-id": "Peter"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Sunday",
