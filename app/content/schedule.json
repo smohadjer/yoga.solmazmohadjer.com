@@ -33,7 +33,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2021-12-01",
+			"end-date": "2021-12-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2021-03-22"},
@@ -60,7 +60,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2021-12-01",
+			"end-date": "2021-12-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2021-07-08"},
@@ -89,7 +89,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "anna",
 			"start-date": null,
-			"end-date": "2021-12-01",
+			"end-date": "2021-12-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2021-11-07"}
