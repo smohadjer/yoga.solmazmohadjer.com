@@ -7,8 +7,7 @@
 		"teachers-list": [
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
 			{"name": "Miguel", "id": "miguel", "hasPage": true},
-			{"name": "Anna", "id": "anna", "hasPage": true},
-			{"name": "Peter", "id": "peter", "hasPage": true}
+			{"name": "Anna", "id": "anna", "hasPage": true}
 		
 		],
 		"classes-list": [
