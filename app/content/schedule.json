@@ -3,7 +3,7 @@
 		"test": true,
 		"end": "2022-12-31",
 		"active-classes": ["hatha-at-info", "weekend", "108-surya-namaskar"],
-		"active-teachers": ["solmaz", "miguel", "anna", "peter"],
+		"active-teachers": ["solmaz", "miguel", "anna"],
 		"teachers-list": [
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
 			{"name": "Miguel", "id": "miguel", "hasPage": true},
