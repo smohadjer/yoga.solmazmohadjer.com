@@ -51,7 +51,7 @@
 				{"date": "2021-07-29", "teacher-id": "anna"},
 				{"date": "2021-08-05", "teacher-id": "anna"},
 				{"date": "2021-08-12", "teacher-id": "anna"},
-				{"date": "2021-11-04", "teacher-id": "anna"}
+				{"date": "2021-12-23", "teacher-id": "anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
@@ -81,7 +81,7 @@
 				{"date": "2021-08-01", "teacher-id": "miguel"},
 				{"date": "2021-08-08", "teacher-id": "miguel"},
 				{"date": "2021-08-15", "teacher-id": "miguel"},
-				{"date": "2021-09-05", "teacher-id": "peter"}
+				{"date": "2021-12-19", "teacher-id": "miguel"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Sunday",
