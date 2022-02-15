@@ -32,12 +32,12 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2022-02-28",
+			"end-date": "2022-03-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2021-03-22"},
 				{"date": "2021-08-16"},
-				{"date": "2022-01-24"}
+				{"date": "2022-03-21"}
 			]
 		},
 		{
@@ -59,7 +59,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2022-02-28",
+			"end-date": "2022-03-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2021-07-08"},
@@ -89,10 +89,10 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "anna",
 			"start-date": null,
-			"end-date": "2022-02-28",
+			"end-date": "2022-03-31",
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2022-01-30"}
+				{"date": "2022-03-20"}
 			]
 		},
 		{
@@ -102,7 +102,7 @@
 			"address": "Online",
 			"repeats": false,
 			"dates": [
-				{"date": "2022-03-20", "teacher-id": "anna"},
+				{"date": "2022-03-21", "teacher-id": "solmaz"},
 				{"date": "2022-06-20", "teacher-id": "solmaz"},
 				{"date": "2022-09-22", "teacher-id": "miguel"},
 				{"date": "2022-12-22", "teacher-id": "miguel"}
