@@ -51,7 +51,7 @@
 				{"date": "2021-07-29", "teacher-id": "anna"},
 				{"date": "2021-08-05", "teacher-id": "anna"},
 				{"date": "2021-08-12", "teacher-id": "anna"},
-				{"date": "2021-12-23", "teacher-id": "anna"}
+				{"date": "2021-03-24", "teacher-id": "anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
@@ -65,7 +65,7 @@
 				{"date": "2021-07-08"},
 				{"date": "2021-07-15"},
 				{"date": "2021-12-09"},
-				{"date": "2022-01-06"}
+				{"date": "2022-03-24"}
 
 			]
 		},
