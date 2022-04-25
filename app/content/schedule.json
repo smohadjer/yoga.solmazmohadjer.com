@@ -24,7 +24,7 @@
 			"address": "Online",
 			"repeats": true,
 			"dates": [
-				{"date": "2022-04-18", "teacher-id": "anna"}
+				{"date": "2022-05-16", "teacher-id": "miguel"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Monday",
@@ -36,7 +36,6 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-05-09"},
-				{"date": "2022-05-16"},
 				{"date": "2022-05-23"}
 			]
 		},
