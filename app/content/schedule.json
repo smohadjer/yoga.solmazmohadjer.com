@@ -35,7 +35,6 @@
 			"end-date": "2022-05-31",
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2022-05-09"},
 				{"date": "2022-05-23"}
 			]
 		},
