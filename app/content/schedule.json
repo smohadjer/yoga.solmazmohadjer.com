@@ -49,12 +49,12 @@
 				{"date": "2021-07-29", "teacher-id": "anna"},
 				{"date": "2021-08-05", "teacher-id": "anna"},
 				{"date": "2021-08-12", "teacher-id": "anna"},
-				{"date": "2021-03-24", "teacher-id": "anna"}
+				{"date": "2022-08-18", "teacher-id": "anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
 			"start-time": "18:00",
-			"end-time": "18:30 CEST",
+			"end-time": "19:00 CEST",
 			"teacher-id": "miguel",
 			"start-date": null,
 			"end-date": "2022-09-30",
