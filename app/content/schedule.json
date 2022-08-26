@@ -51,7 +51,7 @@
 				{"date": "2021-08-05", "teacher-id": "anna"},
 				{"date": "2021-08-12", "teacher-id": "anna"},
 				{"date": "2022-08-18", "teacher-id": "anna"},
-				{"date": "2021-09-15", "teacher-id": "miguel", "title": "in-person at InFö"}
+				{"date": "2022-09-15", "teacher-id": "miguel", "title": "in-person at InFö"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
@@ -62,8 +62,7 @@
 			"end-date": "2022-09-30",
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2022-09-22"},
-				{"date": "2022-09-15"}
+				{"date": "2022-09-22"}
 
 			]
 		},
