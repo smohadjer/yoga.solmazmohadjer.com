@@ -62,7 +62,8 @@
 			"end-date": "2022-09-30",
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2022-09-22"}
+				{"date": "2022-09-22"},
+				{"date": "2022-09-15"}
 
 			]
 		},
@@ -101,7 +102,6 @@
 			"dates": [
 				{"date": "2022-03-21", "teacher-id": "solmaz"},
 				{"date": "2022-06-20", "teacher-id": "solmaz"},
-				{"date": "2022-09-22", "teacher-id": "miguel"},
 				{"date": "2022-09-29", "teacher-id": "solmaz"}
 			],
 			"start-time": "18:00",
