@@ -36,7 +36,8 @@
 			"end-date": "2022-10-31",
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2022-09-26"}
+				{"date": "2022-09-26"},
+				{"date": "2022-10-24"}
 				
 			]
 		},
