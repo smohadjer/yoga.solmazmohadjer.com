@@ -33,7 +33,7 @@
 			"end-time": "19:00 CEST",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2022-09-30",
+			"end-date": "2022-10-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-09-26"}
@@ -61,7 +61,7 @@
 			"end-time": "18:30 CEST",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2022-09-30",
+			"end-date": "2022-10-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-09-08"},
@@ -89,7 +89,7 @@
 			"end-time": "19:00 CEST",
 			"teacher-id": "anna",
 			"start-date": null,
-			"end-date": "2022-09-30",
+			"end-date": "2022-10-31,
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-09-11"}
@@ -104,7 +104,9 @@
 			"dates": [
 				{"date": "2022-03-21", "teacher-id": "solmaz"},
 				{"date": "2022-06-20", "teacher-id": "solmaz"},
-				{"date": "2022-09-29", "teacher-id": "solmaz"}
+				{"date": "2022-09-29", "teacher-id": "solmaz"},
+				{"date": "2022-12-22", "teacher-id": "miguel"}
+				
 			],
 			"start-time": "18:00",
 			"end-time": "19:00 CEST",
