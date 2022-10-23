@@ -63,7 +63,7 @@
 			"end-time": "18:30 CEST",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2022-11-30",
+			"end-date": "2022-10-27",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-11-24"}
@@ -89,7 +89,7 @@
 			"day-of-week": "Sunday",
 			"start-time": "18:00",
 			"end-time": "19:00 CEST",
-			"teacher-id": "anna",
+			"teacher-id": "miguel",
 			"start-date": null,
 			"end-date": "2022-11-30",
 			"booking-url": null,
