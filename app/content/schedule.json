@@ -37,8 +37,9 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-12-19"},
-				{"date": "2022-12-26"}
-				
+				{"date": "2022-12-26"},
+				{"date": "2023-01-02"}
+
 			]
 		},
 		{
@@ -66,7 +67,6 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2023-01-01"}
-				
 
 			]
 		},
@@ -94,7 +94,8 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-12-25"},
-				{"date": "2023-01-01"}
+				{"date": "2023-01-01"},
+				{"date": "2023-01-15"}
 			]
 		},
 		{
