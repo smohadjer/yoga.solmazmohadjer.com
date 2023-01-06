@@ -105,17 +105,17 @@
 			"address": "Online",
 			"repeats": false,
 			"dates": [
-				{"date": "2022-03-21", "teacher-id": "solmaz"},
-				{"date": "2022-06-20", "teacher-id": "solmaz"},
-				{"date": "2022-09-29", "teacher-id": "solmaz"},
-				{"date": "2022-12-19", "teacher-id": "solmaz"}
+				{"date": "2023-03-20", "teacher-id": "solmaz"},
+				{"date": "2023-06-19", "teacher-id": "solmaz"},
+				{"date": "2023-09-24", "teacher-id": "miguel"},
+				{"date": "2023-12-18", "teacher-id": "solmaz"}
 				
 			],
 			"start-time": "18:00",
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2022-12-22",
+			"end-date": "2023-12-22",
 			"booking-url": null,
 			"cancelations": null
 		},
