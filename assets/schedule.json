@@ -1,0 +1,275 @@
+{
+	"config": {
+		"test": true,
+		"end": "2023-12-31",
+		"active-classes": ["hatha-at-info", "weekend", "108-surya-namaskar"],
+		"active-teachers": ["solmaz", "miguel", "anna"],
+		"teachers-list": [
+			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
+			{"name": "Miguel", "id": "miguel", "hasPage": true},
+			{"name": "Anna", "id": "anna", "hasPage": true}
+		
+		],
+		"classes-list": [
+			{"name": "Hatha Yoga", "id": "hatha-at-info"},
+			{"name": "Sunday Yoga", "id": "weekend"},
+			{"name": "108 Surya Namaskar", "id": "108-surya-namaskar"}
+		]
+	},
+	"sessions": [
+		{
+			"title": "Hatha Yoga",
+			"class-id": "hatha-at-info",
+			"level": "All",
+			"address": "Online",
+			"repeats": true,
+			"dates": [
+				{"date": "2022-06-06", "teacher-id": "anna"},
+				{"date": "2022-10-31", "teacher-id": "anna"}
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Monday",
+			"start-time": "18:00",
+			"end-time": "19:00 CET",
+			"teacher-id": "solmaz",
+			"start-date": null,
+			"end-date": "2023-02-28",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2022-12-19"},
+				{"date": "2022-12-26"},
+				{"date": "2023-01-02"}
+
+			]
+		},
+		{
+			"title": "Hatha Yoga",
+			"class-id": "hatha-at-info",
+			"level": "All",
+			"address": "Online",
+			"repeats": true,
+			"dates": [
+				{"date": "2021-07-01", "teacher-id": "solmaz"},
+				{"date": "2021-07-29", "teacher-id": "anna"},
+				{"date": "2021-08-05", "teacher-id": "anna"},
+				{"date": "2021-08-12", "teacher-id": "anna"},
+				{"date": "2022-08-18", "teacher-id": "anna"},
+				{"date": "2022-09-01", "teacher-id": "anna"}
+				
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Thursday",
+			"start-time": "18:00",
+			"end-time": "18:30 CEST",
+			"teacher-id": "miguel",
+			"start-date": null,
+			"end-date": "2022-10-28",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2023-01-01"}
+
+			]
+		},
+		{
+			"title": "Weekend Yoga",
+			"class-id": "weekend",
+			"level": "All",
+			"address": "Online",
+			"repeats": true,
+			"dates": [
+				{"date": "2021-02-14", "teacher-id": "peter", "title": "Sivananda"},
+				{"date": "2021-07-18", "teacher-id": "miguel"},
+				{"date": "2021-08-01", "teacher-id": "miguel"},
+				{"date": "2021-08-08", "teacher-id": "miguel"},
+				{"date": "2021-08-15", "teacher-id": "miguel"},
+				{"date": "2023-01-15", "teacher-id": "solmaz"}
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Sunday",
+			"start-time": "18:00",
+			"end-time": "19:00 CET",
+			"teacher-id": "miguel",
+			"start-date": null,
+			"end-date": "2023-02-28",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2022-12-25"},
+				{"date": "2023-01-01"}
+			]
+		},
+		{
+			"title": "108 Sun Salutations",
+			"class-id": "108-surya-namaskar",
+			"level": "Intermediate/Advanced",
+			"address": "Online",
+			"repeats": false,
+			"dates": [
+				{"date": "2023-03-20", "teacher-id": "solmaz"},
+				{"date": "2023-06-19", "teacher-id": "solmaz"},
+				{"date": "2023-09-24", "teacher-id": "miguel"},
+				{"date": "2023-12-18", "teacher-id": "solmaz"}
+				
+			],
+			"start-time": "18:00",
+			"end-time": "19:00 CET",
+			"teacher-id": "miguel",
+			"start-date": null,
+			"end-date": "2023-12-22",
+			"booking-url": null,
+			"cancelations": null
+		},
+		{
+			"title": "Hatha Yoga",
+			"class-id": "hatha-at-fbs",
+			"level": "All",
+			"address": "FBS, Christophstr. 10, 72072 Tübingen",
+			"repeats": false,
+			"dates": [
+				{"date": "2018-04-20"},
+				{"date": "2018-04-27"},
+				{"date": "2018-05-04"},
+				{"date": "2018-05-18"},
+				{"date": "2018-06-08"},
+				{"date": "2018-06-15"},
+				{"date": "2018-06-22"},
+				{"date": "2018-06-29"},
+				{"date": "2018-07-06"},
+				{"date": "2018-07-13"},
+				{"date": "2018-07-20"}
+			],
+			"start-time": "18:00",
+			"end-time": "19:30",
+			"teacher-id": "solmaz",
+			"start-date": null,
+			"end-date": "2018-04-28",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2017-05-07"},
+				{"date": "2018-05-11"}
+			]
+		},
+		{
+			"title": "Yoga for Your Back",
+			"class-id": "yoga-for-your-back",
+			"level": "All",
+			"address": "FBS, Raum 006, Hechingerstr. 13, 72072 Tübingen",
+			"repeats": false,
+			"dates": [
+				{"date": "2017-07-28"},
+				{"date": "2017-08-04"},
+				{"date": "2017-09-01"},
+				{"date": "2017-09-08"},
+				{"date": "2017-09-15"},
+				{"date": "2017-09-22"},
+				{"date": "2017-09-29"}
+			],
+			"start-time": "17:15",
+			"end-time": "18:45",
+			"teacher-id": "solmaz",
+			"start-date": null,
+			"end-date": "2017-09-30",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2017-05-07"},
+				{"date": "2017-05-28"}
+			]
+		},
+		{
+		"title": "Yin Yoga",
+			"class-id": "yin",
+			"level": "All",
+			"address": "FBS, Christophstr. 10, 72072 Tübingen",
+			"repeats": false,
+			"dates": [
+				{"date": "2018-04-17"},
+				{"date": "2018-04-24"},
+				{"date": "2018-05-08"},
+				{"date": "2018-05-15"},
+				{"date": "2018-06-05"},
+				{"date": "2018-06-12"},
+				{"date": "2018-06-26"},
+				{"date": "2018-07-03"},
+				{"date": "2018-07-10"},
+				{"date": "2018-07-17"},
+				{"date": "2018-07-24"}
+			],
+			"start-time": "17:15",
+			"end-time": "18:45",
+			"teacher-id": "solmaz",
+			"start-date": null,
+			"end-date": "2018-07-30",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2017-05-07"},
+				{"date": "2017-05-28"}
+				]
+		},
+		{
+		"title": "Hatha Chakra Flow",
+			"class-id": "hatha-at-yogaraum",
+			"level": "All",
+			"address": "Yoga Raum, Westbahnhofstr. 53, 72070 Tübingen",
+			"repeats": true,
+			"dates": [
+				{"date": "2017-05-08", "teacher-id": "konstantina"}
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Friday",
+			"start-time": "18:00",
+			"end-time": "19:30",
+			"teacher-id": "miguel",
+			"start-date": null,
+			"end-date": "2017-12-23",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2017-10-13"},
+				{"date": "2017-10-20"},
+				{"date": "2017-10-27"}
+				]
+		},
+		{
+				"title": "Yoga for Meditation",
+			"class-id": "yoga-for-meditation",
+			"level": "All",
+			"address": "Yoga Raum, Westbahnhofstr. 53, 72070 Tübingen",
+			"repeats": true,
+			"dates": [
+				{"date": "2018-05-01", "teacher-id": "konstantina"}
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Friday",
+			"start-time": "18:15",
+			"end-time": "19:30",
+			"teacher-id": "miguel",
+			"start-date": "2019-02-01",
+			"end-date": "2019-04-27",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2017-10-20"},
+				{"date": "2022-09-22"}
+				]
+		},
+		{
+			"title": "Hatha Yoga at Clubhaus",
+			"class-id": "vinyasa-yoga",
+			"level": "All",
+			"address": "Clubhaus, Wilhelmstraße 30, 72074 Tübingen",
+			"repeats": false,
+			"dates": [
+				{"date": "2020-01-15", "teacher-id": "anna"},
+				{"date": "2020-02-12", "teacher-id": ["anna", "solmaz"]},
+				{"date": "2020-02-19", "teacher-id": ["anna", "solmaz"]},
+				{"date": "2020-02-26", "teacher-id": ["anna", "solmaz"]}
+			],
+			"start-time": "18:15",
+			"end-time": "19:45",
+			"teacher-id": "solmaz",
+			"start-date": null,
+			"end-date": "2020-03-01",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2020-01-01"}
+			]
+		}
+	]
+}
