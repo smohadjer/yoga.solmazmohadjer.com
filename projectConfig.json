@@ -1,0 +1,19 @@
+{
+	"dependencies": {
+		"css": [
+			"node_modules/hamburgers/dist/hamburgers.css",
+			"node_modules/helpers/dist/helper.css"
+		],
+		"js": [
+			"node_modules/handlebars/dist/handlebars.runtime.js",
+			"node_modules/youtube-playlist/dist/ytplayer.js",
+			"node_modules/filterList/dist/filterList.js"
+		]
+	},
+	"pages": [
+		{
+			"source": "app/content",
+			"target": "public"
+		}
+	]
+}

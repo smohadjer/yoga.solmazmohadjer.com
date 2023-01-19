@@ -4,30 +4,34 @@
 	"description": "Yoga Courses",
 	"repository": {
 		"type": "git",
-		"url": "https://bitbucket.org/smohadjer/solmazmohadjer.com"
+		"url": "https://github.com/smohadjer/yoga.solmazmohadjer.com"
 	},
 	"license": "MIT",
+	"scripts": {
+		"precompile": "node node_modules/build/bin/clean.js",
+		"compile": "node node_modules/build/bin/compile.js",
+		"copy": "node node_modules/build/bin/copyPublic.js",
+		"copyDist": "node node_modules/build/bin/copydist.js",
+		"sass": "node node_modules/build/bin/sassTocss",
+		"hbs": "node node_modules/build/bin/hbs.js",
+		"generateSchedules": "node app/bin/jsonToHtml.js",
+		"watch": "node node_modules/build/bin/watch-content.js & node node_modules/build/bin/watch-css.js & node node_modules/build/bin/watch-js.js & node node_modules/build/bin/watch-img.js",
+		"serve": "npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
+		"start": "npm run serve && npm run watch",
+		"build": "npm run serve && rollup -c && npm run copyDist"
+	},
 	"devDependencies": {
-		"chokidar": "3.1.0",
-		"del": "2.2.0",
-		"express": "^4.16.2",
-		"gulp": "3.9.1",
-		"gulp-concat": "2.6.0",
-		"gulp-debug": "^3.0.0",
-		"gulp-declare": "0.3.0",
-		"gulp-handlebars": "^5.0.2",
-		"gulp-if": "^2.0.0",
-		"gulp-sass": "3.1.0",
-		"gulp-uglify": "^1.5.1",
-		"gulp-useref": "^3.1.6",
-		"gulp-wrap": "^0.15.0",
-		"handlebars": "^4.2.0",
-		"moment": "^2.24.0",
-		"require-dir": "^1.2.0",
-		"run-sequence": "^2.2.1",
-		"gulp-npm-dist": "^0.1.6"
+		"build": "git://github.com/smohadjer/build.git#0.1.9",
+		"handlebars": "^4.7.7",
+		"moment": "2.29.4"
 	},
 	"dependencies": {
-		"youtube-playlist": "git+https://github.com/smohadjer/youtube-playlist.git#1.1.0"
+		"hamburgers": "0.9.3",
+		"helpers": "git+https://github.com/smohadjer/helpers.git",
+		"youtube-playlist": "git://github.com/smohadjer/youtube-playlist.git",
+		"filterList": "git+https://github.com/smohadjer/filterList#3.1.0"
+	},
+	"engines": {
+		"node": ">=16.13.0"
 	}
 }

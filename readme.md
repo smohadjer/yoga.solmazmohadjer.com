@@ -2,25 +2,19 @@ Live site: https://yoga.solmazmohadjer.com/
 REST endpoint for teacher: https://yoga.solmazmohadjer.com/node/solmaz
 Repository: https://github.com/smohadjer/yoga.solmazmohadjer.com
 
-Content folder is deployed via a github hook to live server after every commit.
-
-##Requirements:
-PHP 5.6.28
-nodejs
-
-## Running Website on localhost
-- $ git clone repository
-- $ npm install
-- $ bower install
-- $ gulp serve
-
-## Building Website on localhost
-- $ gulp build
-
 ## Running Rest API
 - Rest api is run via a node script that listens to a specified port. The script should be run using pm2 with autostart on live server so that restarting server does not break the api. If pm2 is not installed on live server ssh as root and run: npm install pm2 -g
 - Once pm2 is installed cd into api folder and run: pm2 start server.js and then run pm2 autostart
-- Now you need to update your virtual host settings for Apache so that requests to /node are forwarded via a reverse proxy to the port on localhost that nodejs script is listening on it. See this gist for instructions: https://gist.github.com/smohadjer/3f36be26ec719a7c93a452293085d062
+- Now you need to update your virtual host settings for Apache so that requests to /node are forwarded via a reverse proxy to the port on localhost that nodejs script is listening on it. Virtual host configuraiton files are on server at:
+/var/www/vhosts/system/yoga.solmazmohadjer.com/conf
+In conf folder put the following in vhost_ssl.conf:
+````
+ProxyPreserveHost On
+<Location /node>
+	ProxyPass http://127.0.0.1:8080
+	ProxyPassReverse http://127.0.0.1:8080
+</Location>
+````
 
 ## First time deployment to live server
 - Add a domain in plesk with correct username for new Website

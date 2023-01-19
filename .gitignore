@@ -1,12 +1,6 @@
-/.tmp
-app/resources/bower_components
-/dist
-/node_modules
-/npm-debug.log
+public
+dist
+node_modules
 .DS_Store
-app/resources/css/*.css
-app/resources/css/*.css.map
-app/resources/js/handlebars.templates.js
-app/generated
+app/content/partials/schedule
 /**/nodejsPath.php
-.sass-cache

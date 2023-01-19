@@ -1,0 +1,20 @@
+<div class="filters">
+  <span>
+    <label>Teacher:</label>
+    <select name="teacher-id" data-ignore="all">
+      <option selected value="all">All</option>
+      {{> partials/schedule/teachers-list }}
+    </select>
+  </span>
+  <span>
+    <label>Class:</label>
+    <select name="class-id" data-ignore="all">
+      <option selected value="all">All</option>
+      {{> partials/schedule/classes-list }}
+    </select>
+  </span>
+</div>
+<ul class="list" data-filter-names="teacher-id class-id">
+  {{> partials/schedule/sessions }}
+</ul>
+<p class="hint">No sessions were found!</p>

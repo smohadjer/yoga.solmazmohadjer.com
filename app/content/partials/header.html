@@ -1,0 +1,17 @@
+
+		<header class="clearfix">
+			<a class="logo-icon" href="index.html"><img width="60" src="/assets/images/logo.svg" alt="Home" /></a>
+			<div class="logo">
+				<p class="title">Open Yoga</p>
+				<p class="tagline">No registration. No fees.</p>
+			</div>
+				<nav>
+					<ul class="clearfix">
+						<li {{#if (eq pageId 'index')}}class="selected"{{/if}}><a href="/index.html">Home</a></li>
+						<li {{#if (eq pageId 'schedule')}}class="selected"{{/if}}><a href="/schedule.html">Schedule</a></li>
+						<li {{#if (eq pageId 'classes')}}class="selected"{{/if}}><a href="/courses.html">Courses</a></li>
+						<li {{#if (eq pageId 'teachers')}}class="selected"{{/if}}><a href="/teachers.html">Teachers</a></li>
+						<li {{#if (eq pageId 'resources')}}class="selected"{{/if}}><a href="/resources.html">Resources</a></li>
+					</ul>
+				</nav>
+		</header>
