@@ -4,11 +4,11 @@
 		<span class="monthday">{{month}} {{daynumber}}</span>
 		<span class="hours">{{hours}}</span>
 	</time>
-	<h1><a href="classes.php?id={{courseId}}">{{courseName}}</a></h1>
+	<h1><a href="classes.html?id={{courseId}}">{{courseName}}</a></h1>
 	<p class="teacher"><strong>Teacher:</strong>
 		{{#each teachers}}
 			{{#if this.hasPage}}
-				<a href="teachers.php?id={{this.id}}">{{this.name}}</a>{{else}}
+				<a href="teachers.html?id={{this.id}}">{{this.name}}</a>{{else}}
 				{{this.name}}{{/if}}{{#ifCond ../teachers.length '>' 1}}{{#unless @last}},{{/unless}}{{/ifCond}}
 		{{/each}}
 	 </p>
