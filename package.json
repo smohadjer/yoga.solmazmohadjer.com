@@ -18,12 +18,16 @@
 		"watch": "node node_modules/build/bin/watch-content.js & node node_modules/build/bin/watch-css.js & node node_modules/build/bin/watch-js.js & node node_modules/build/bin/watch-img.js",
 		"serve": "npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
 		"start": "npm run serve && npm run watch",
-		"build": "npm run serve && rollup -c && npm run copyDist"
+		"build": "npm run serve && rollup -c && npm run copyDist",
+		"build-api": "node app/bin/fetchDependencies.js",
+		"start-api": "node app/api/server.js"
 	},
 	"devDependencies": {
 		"build": "git://github.com/smohadjer/build.git#0.1.9",
 		"handlebars": "^4.7.7",
-		"moment": "2.29.4"
+		"moment": "2.29.4",
+		"express": "^4.16.2",
+		"fs-extra": "^8.1.0"
 	},
 	"dependencies": {
 		"hamburgers": "0.9.3",

@@ -3,4 +3,5 @@ dist
 node_modules
 .DS_Store
 app/content/partials/schedule
-/**/nodejsPath.php
+app/api/lib
+
