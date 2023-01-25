@@ -204,21 +204,20 @@ exports.updateView = function(yogaSessions, templateFile, targetFile, callback) 
 	    }
 	});
 
-	fs.readFile(templateFile, 'utf-8', function(error, source){
-		var template = handlebars.compile(source);
+	const source = fs.readFileSync(templateFile, 'utf-8');
+	const template = handlebars.compile(source);
 
-		yogaSessions.forEach(function(value) {
-			html += template(value);
-		});
-
-		if (targetFile) {
-			fs.writeFile(targetFile, html, function(err) {
-				if (err) {
-					return console.log(err);
-				}
-			});
-		} else {
-			callback(html);
-		}
+	yogaSessions.forEach(function(value) {
+		html += template(value);
 	});
+
+	if (targetFile) {
+		fs.writeFile(targetFile, html, function(err) {
+			if (err) {
+				return console.log(err);
+			}
+		});
+	} else {
+		callback(html);
+	}
 };

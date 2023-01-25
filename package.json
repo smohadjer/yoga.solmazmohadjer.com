@@ -19,8 +19,7 @@
 		"serve": "npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
 		"start": "npm run serve && npm run watch",
 		"build": "npm run serve && rollup -c && npm run copyDist",
-		"build-api": "npm install && node app/bin/fetchDependencies.js",
-		"start-api": "node app/api/server.js"
+		"build-api": "node app/bin/fetchDependencies.js"
 	},
 	"devDependencies": {
 		"build": "git://github.com/smohadjer/build.git#0.1.9",
