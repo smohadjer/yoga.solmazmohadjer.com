@@ -3,7 +3,7 @@ const process = require('process');
 console.log('__dirname: ', __dirname);
 console.log('cwd: ', process.cwd());
 
-const sessions = require(process.cwd()+'/api/lib/sessions.js');
+const sessions = require('./lib/sessions.js');
 
 exports.findById = function(teacherId) {
 	const data = sessions.getJson(process.cwd()+'/api/lib/schedule.json');

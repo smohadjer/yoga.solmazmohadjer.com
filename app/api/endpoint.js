@@ -24,7 +24,7 @@ const handler = (req, res) => {
   });
   */
 
-  const api = require(`${__dirname}/api`);
+  const api = require('./api');
   const html = api.findById(req.query.id);
   res.status(200).send(html);
 }
