@@ -3,8 +3,6 @@ var moment = require('moment');
 var handlebars = require('handlebars');
 var sessions = require('../sessions');
 
-console.log('hello world');
-
 var generateTeachersList = function (data, templateFile, targetFile) {
 	fs.readFile(templateFile, 'utf-8', function(error, source){
 		var template = handlebars.compile(source);

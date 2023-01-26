@@ -1,43 +1,18 @@
-Live site: https://yoga.solmazmohadjer.com/
-REST endpoint for teacher: https://yoga.solmazmohadjer.com/node/solmaz
-Repository: https://github.com/smohadjer/yoga.solmazmohadjer.com
+- Website: https://yoga.solmazmohadjer.com/
+- API endpoint: https://yoga-api-rho.vercel.app/api/endpoint/?id=solmaz
+- GitHub: https://github.com/smohadjer/yoga.solmazmohadjer.com
+- Vercel: https://vercel.com/saeid-fastmailfm/yoga-api
 
-## Running Rest API
-- Rest api is run via a node script that listens to a specified port. The script should be run using pm2 with autostart on live server so that restarting server does not break the api. If pm2 is not installed on live server ssh as root and run: npm install pm2 -g
-- Once pm2 is installed cd into api folder and run: pm2 start server.js and then run pm2 autostart
-- Now you need to update your virtual host settings for Apache so that requests to /node are forwarded via a reverse proxy to the port on localhost that nodejs script is listening on it. Virtual host configuraiton files are on server at:
-/var/www/vhosts/system/yoga.solmazmohadjer.com/conf
-In conf folder put the following in vhost_ssl.conf:
-````
-ProxyPreserveHost On
-<Location /node>
-	ProxyPass http://127.0.0.1:8080
-	ProxyPassReverse http://127.0.0.1:8080
-</Location>
-````
+## Summary
+The Website is a static HTML site hosted on GitHub Pages for free via a custom domain. There is a serverless Nodejs function that runs on a Vercel free account and returns next class of a teacher. This endpoint is invoked via Ajax on teachers pages. The markup of schedule page is generated via Nodejs from a json file via NPM scripts during build. On every commit to GitHub, GitHub actions builds and deploys the static site to GitHub Pages and Vercel deploys latest code to Vercel so api endpoint gets also updated. Everything is automated and is free.
 
-## First time deployment to live server
-- Add a domain in plesk with correct username for new Website
-- $ gulp build and then copy built files from dist folder to Website's root folder via ftp
-- ssh username@83.169.4.180
-- cd /var/www/vhosts/solmazmohadjer.com/app
-- $ git init
-- $ npm install chokidar moment handlebars
-- if there is no .ssh folder in user's home directory run $ ssh-keygen to create ssh files and then
-copy user's public ssh key to bitbucket repo and also run ssh -T git@bitbucket.org to add bitbucket's publick ssh key to your known_hosts in .ssh folder
-- To generate nodejsPath.php on server go to /var/www/vhosts/solmazmohadjer.com/yoga.solmazmohadjer.com and run: ./app/nodejsPath.sh  (./<fileName> runs a shell script). If you get a "Keine Berechtigung" error, then it could that nodejsPath.sh is not executable. In that case run: chmod +x nodejsPath.sh to make it executable.
+## Running Website locally
+- git clone https://github.com/smohadjer/yoga.solmazmohadjer.com.git yoga
+- cd yoga
+- npm install
+- npm start
 
-##Updating live site
-- Content folder is deployed automatically via webhook that is invoked by commits.
-- Development resources are updated manually via sftp from dist folder after running gulp build.
-
-##Find out which port to use for running nodejs server
-1. SSH to server and run "iptables -L -n" to find out which ports are not blocked by firewall.
-2. Run "netstat -lntp" to see which tcp ports have something listening on them.
-3. Any port that is not blocked by firewall and has nothing listening on it can be used for running nodejs server.
-
-##Tips for developer
-- To find out which user is running php, create a php file with content <?php echo exec('whoami'); ?> and open it in browser. You can create the fie in terminal using this command:
-$ echo '<?php echo exec('whoami'); ?>' > whoami.php
-- If you can't access Website in browser, check site logs in Plesk. It can be that .htaccess is missing or the site folder doesn't have executive permission. Use $ chmod 755 folderName to set folder permission to drwxr-xr-x.
-- Use $ ps -ef to see list of the currently running processes on server. Find the process you are looking for, and look at the 2nd column (process id or pid). Then use: kill <pid> to kill the process.
+## Running API locally
+- npm i -g vercel (on install Vercel cli globally)
+- vercel dev (in settings use `app` as root directory and `api as outpout directory and `npm run build-api` as build command)
+- Try api at http://localhost:3000/api/endpoint/?id=solmaz
