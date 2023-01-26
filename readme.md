@@ -13,6 +13,6 @@ The Website is a static HTML site hosted on GitHub Pages for free via a custom d
 - npm start
 
 ## Running API locally
-- npm i -g vercel (on install Vercel cli globally)
-- vercel dev (in settings use `app` as root directory and `api as outpout directory and `npm run build-api` as build command)
+- npm i -g vercel (installs Vercel CLI globally)
+- vercel dev (when asked for settings, use `app` as root directory and `api as outpout directory and `npm run build-api` as build command)
 - Try api at http://localhost:3000/api/endpoint/?id=solmaz
