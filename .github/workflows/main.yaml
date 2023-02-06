@@ -1,11 +1,12 @@
-name: Build and Deploy
+name: Build and Deploy Pages
 on:
   push:
     branches:
       - master
-
+  schedule:
+    - cron: '*/15 * * * *'
 jobs:
-  build-and-deploy:
+  build-and-deploy-pages:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
