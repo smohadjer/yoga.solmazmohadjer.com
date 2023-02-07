@@ -23,8 +23,10 @@
 		  </script>
     {{/if}}
 
-     {{#if (eq this.pageId 'teachers')}}
-    	<script>
+    {{#if (eq this.pageId 'teachers')}}
+		<!-- The api that returns next class of a teacher is now invoked during build via node.js so we don't need javascript to call the api anymore. -->
+		<!--
+    <script>
 			var $uls = document.querySelectorAll('div.teachers ul.list');
 			if ($uls) {
 				[...$uls].forEach(function(ul, key) {
@@ -54,6 +56,7 @@
 				});
 			}
 		</script>
+		-->
     {{/if}}
 	</body>
 </html>

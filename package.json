@@ -15,9 +15,10 @@
 		"sass": "node node_modules/build/bin/sassTocss",
 		"hbs": "node node_modules/build/bin/hbs.js",
 		"generateSchedules": "node app/bin/jsonToHtml.js",
+		"fetchNextClass": "node app/bin/fetchNextClass.js",
 		"watch": "node node_modules/build/bin/watch-content.js & node node_modules/build/bin/watch-css.js & node node_modules/build/bin/watch-js.js & node node_modules/build/bin/watch-img.js",
 		"server": "node node_modules/build/bin/server.js",
-		"serve": "npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
+		"serve": "npm run fetchNextClass && npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
 		"start": "npm run serve && npm run watch & npm run server",
 		"build": "npm run serve && rollup -c && npm run copyDist",
 		"build-api": "npm install && node app/bin/fetchDependencies.js"
