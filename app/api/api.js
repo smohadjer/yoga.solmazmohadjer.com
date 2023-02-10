@@ -1,7 +1,7 @@
 const process = require('process');
 
-console.log('__dirname: ', __dirname);
-console.log('cwd: ', process.cwd());
+//console.log('__dirname: ', __dirname);
+//console.log('cwd: ', process.cwd());
 
 const sessions = require('./lib/sessions.js');
 
@@ -14,7 +14,7 @@ exports.findById = function(teacherId) {
 	const session = sessions.getNextSession(yogaSessions, teacherId);
 	var testHtml = 'No classes were found!';
 
-	console.log('session: ', session);
+	//console.log('session: ', session);
 
 	if (session) {
 		sessions.updateView([session], `${__dirname}/lib/listing.hbs`, undefined, function(html) {
@@ -22,7 +22,7 @@ exports.findById = function(teacherId) {
 		});
 	}
 
-	console.log('html: ', testHtml)
+	//console.log('html: ', testHtml)
 
 	return testHtml;
 };
