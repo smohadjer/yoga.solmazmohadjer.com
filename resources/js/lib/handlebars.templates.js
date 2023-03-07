@@ -62,7 +62,7 @@ templates['listing'] = template({"1":function(container,depth0,helpers,partials,
         return undefined
     };
 
-  return "				<a href=\"teachers.html?id="
+  return "				<a href=\"teachers.html#"
     + alias2(alias1((depth0 != null ? lookupProperty(depth0,"id") : depth0), depth0))
     + "\">"
     + alias2(alias1((depth0 != null ? lookupProperty(depth0,"name") : depth0), depth0))

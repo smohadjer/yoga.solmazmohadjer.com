@@ -807,6 +807,10 @@ article figure {
   border-bottom: dotted 1px #999;
   margin-bottom: 50px;
 }
+.teachers > .teacher:target {
+  padding-top: 30px;
+  margin-top: -30px;
+}
 .teachers > .teacher:last-child {
   border-bottom: none;
   padding-bottom: 0;
