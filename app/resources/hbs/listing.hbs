@@ -8,7 +8,7 @@
 	<p class="teacher"><strong>Teacher:</strong>
 		{{#each teachers}}
 			{{#if this.hasPage}}
-				<a href="teachers.html?id={{this.id}}">{{this.name}}</a>{{else}}
+				<a href="teachers.html#{{this.id}}">{{this.name}}</a>{{else}}
 				{{this.name}}{{/if}}{{#ifCond ../teachers.length '>' 1}}{{#unless @last}},{{/unless}}{{/ifCond}}
 		{{/each}}
 	 </p>
