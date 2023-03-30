@@ -577,6 +577,10 @@ body {
     page-break-after: avoid;
   }
 }
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   overflow-y: scroll;
 }
@@ -627,12 +631,6 @@ body {
   margin-top: 0;
 }
 
-.courses figure {
-  width: 50%;
-  float: left;
-  margin: 5px 15px 10px 0;
-}
-
 .main.resources article {
   border-bottom: 1px dotted #999;
   margin-bottom: 20px;
@@ -680,13 +678,6 @@ article figure {
   margin-bottom: 20px;
 }
 
-.courses article + article {
-  clear: both;
-  border-top: dotted 1px #666;
-  padding-top: 50px;
-  margin-top: 40px;
-}
-
 .blog > article {
   border-bottom: dotted 1px #666;
   margin-bottom: 25px;
@@ -707,25 +698,6 @@ article figure {
   footer aside p {
     text-align: right;
     width: 100%;
-  }
-  .courses article > div {
-    float: left;
-    width: 55%;
-    margin-bottom: 20px;
-  }
-  .courses article aside {
-    margin-left: 60%;
-    width: 40%;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-  }
-  .courses .toc {
-    clear: left;
-  }
-  .courses .toc li {
-    list-style: none;
-    float: left;
-    margin-right: 30px;
   }
   .teachers article.cell {
     border-bottom: none;
@@ -1029,5 +1001,44 @@ ul.list.is-empty + .hint {
 @media (min-width: 768px) {
   .ytplayer-list li img {
     width: 140px;
+  }
+}
+
+.courses figure {
+  width: 50%;
+  float: left;
+  margin: 5px 15px 10px 0;
+}
+.courses article {
+  padding-top: 30px;
+  border-bottom: dotted 1px #666;
+  margin-bottom: 40px;
+}
+.courses article + article {
+  clear: both;
+}
+.courses article:last-child {
+  border: 0;
+  margin-bottom: 0;
+}
+@media only screen and (min-width: 768px) {
+  .courses article > div {
+    float: left;
+    width: 55%;
+    margin-bottom: 20px;
+  }
+  .courses article aside {
+    margin-left: 60%;
+    width: 40%;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .courses .toc {
+    clear: left;
+  }
+  .courses .toc li {
+    list-style: none;
+    float: left;
+    margin-right: 30px;
   }
 }

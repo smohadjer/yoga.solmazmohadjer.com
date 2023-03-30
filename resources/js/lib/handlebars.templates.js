@@ -110,10 +110,10 @@ templates['listing'] = template({"1":function(container,depth0,helpers,partials,
     + alias4(((helper = (helper = lookupProperty(helpers,"daynumber") || (depth0 != null ? lookupProperty(depth0,"daynumber") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"daynumber","hash":{},"data":data,"loc":{"start":{"line":4,"column":35},"end":{"line":4,"column":48}}}) : helper)))
     + "</span>\n		<span class=\"hours\">"
     + alias4(((helper = (helper = lookupProperty(helpers,"hours") || (depth0 != null ? lookupProperty(depth0,"hours") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"hours","hash":{},"data":data,"loc":{"start":{"line":5,"column":22},"end":{"line":5,"column":31}}}) : helper)))
-    + "</span>\n	</time>\n	<h1><a href=\"courses.html?id="
-    + alias4(((helper = (helper = lookupProperty(helpers,"courseId") || (depth0 != null ? lookupProperty(depth0,"courseId") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"courseId","hash":{},"data":data,"loc":{"start":{"line":7,"column":30},"end":{"line":7,"column":42}}}) : helper)))
+    + "</span>\n	</time>\n	<h1><a href=\"courses.html#"
+    + alias4(((helper = (helper = lookupProperty(helpers,"courseId") || (depth0 != null ? lookupProperty(depth0,"courseId") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"courseId","hash":{},"data":data,"loc":{"start":{"line":7,"column":27},"end":{"line":7,"column":39}}}) : helper)))
     + "\">"
-    + alias4(((helper = (helper = lookupProperty(helpers,"courseName") || (depth0 != null ? lookupProperty(depth0,"courseName") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"courseName","hash":{},"data":data,"loc":{"start":{"line":7,"column":44},"end":{"line":7,"column":58}}}) : helper)))
+    + alias4(((helper = (helper = lookupProperty(helpers,"courseName") || (depth0 != null ? lookupProperty(depth0,"courseName") : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"courseName","hash":{},"data":data,"loc":{"start":{"line":7,"column":41},"end":{"line":7,"column":55}}}) : helper)))
     + "</a></h1>\n	<p class=\"teacher\"><strong>Teacher:</strong>\n"
     + ((stack1 = lookupProperty(helpers,"each").call(alias1,(depth0 != null ? lookupProperty(depth0,"teachers") : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0, blockParams, depths),"inverse":container.noop,"data":data,"loc":{"start":{"line":9,"column":2},"end":{"line":13,"column":11}}})) != null ? stack1 : "")
     + "	 </p>\n	<p class=\"level\"><strong>Level:</strong> "
