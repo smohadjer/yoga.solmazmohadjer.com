@@ -1,32 +1,10 @@
-test
-
 - Website: https://yoga.solmazmohadjer.com/
-- API endpoint: https://yoga-api-rho.vercel.app/api/endpoint/?id=solmaz
 - GitHub: https://github.com/smohadjer/yoga.solmazmohadjer.com
-- Vercel: https://vercel.com/saeid-fastmailfm/yoga-api
-
-## Summary
-The Website is a static HTML site hosted on GitHub Pages for free via a custom domain. There is a serverless Nodejs function that runs on a Vercel free account and returns next class of a teacher. This endpoint is invoked via Ajax on teachers pages. The markup of schedule page is generated via Nodejs from a json file via NPM scripts during build. On every commit to GitHub, GitHub actions builds and deploys the static site to GitHub Pages and Vercel deploys latest code to Vercel so api endpoint gets also updated. Everything is automated and is free.
 
 ## Running Website locally
 - git clone https://github.com/smohadjer/yoga.solmazmohadjer.com.git yoga
 - cd yoga
 - npm install
-- create a .env file in root and put follwing in it:
-````
-protocol = 'http'
-domain = 'localhost:3000
-````
-- Run api locally (see below section)
 - npm start
-- Open http://localhost:5000/ in browser
+- Open http://localhost:3000/ in browser
 
-
-## Running API locally
-- Open a new terminal window to install Vercel cli: `npm i -g vercel`
-- `vercel dev` (when asked for settings go with default)
-- Try api at http://localhost:3000/api/endpoint/?id=solmaz
-
-## Deploying
-- on Vercel set environment variables "protocol" to https and "domain" to your vercel's production domain.
-- in terminal run: `vercel --prod`
