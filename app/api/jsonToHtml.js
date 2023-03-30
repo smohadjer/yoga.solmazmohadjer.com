@@ -12,6 +12,7 @@ var generateTeachersList = function (data, templateFile, targetFile) {
 		'list': teacherList
 	});
 	fs.writeFileSync(targetFile, html);
+	console.log('generated teachers list');
 };
 
 var generateClassList = function (data, templateFile, targetFile) {
@@ -24,6 +25,7 @@ var generateClassList = function (data, templateFile, targetFile) {
 		'list': classList
 	});
 	fs.writeFileSync(targetFile, html);
+	console.log('generated class list');
 };
 
 if (!fs.existsSync('app/content/partials/schedule')){
@@ -38,3 +40,5 @@ sessions.updateView(yogaSessions, 'app/resources/hbs/listing.hbs', 'app/content/
 
 generateTeachersList(data, 'app/resources/hbs/teachers-list.hbs', 'app/content/partials/schedule/teachers-list.html');
 generateClassList(data, 'app/resources/hbs/classes-list.hbs', 'app/content/partials/schedule/classes-list.html');
+
+console.log('done generating partials');

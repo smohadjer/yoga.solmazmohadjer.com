@@ -18,7 +18,7 @@
 		"fetchNextClass": "node app/api/fetchNextClass.js",
 		"watch": "node node_modules/build/bin/watch.js",
 		"server": "node node_modules/build/bin/server.js",
-		"serve": "npm run fetchNextClass & npm run generateSchedules & npm run compile && npm run copy && npm run sass && npm run hbs",
+		"serve": "npm run fetchNextClass && npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
 		"start": "npm run serve && npm run watch & npm run server public",
 		"build": "npm run serve && rollup -c && npm run copyDist"
 	},
