@@ -835,13 +835,26 @@ article figure {
 .teachers .news figure figcaption p {
   margin-top: 10px;
 }
-.teachers ul.list {
+.teachers .next-class {
+  margin-top: 2em;
+}
+.teachers .next-class ul.list {
   margin-bottom: 10px;
 }
-.teachers ul.list li {
+.teachers .next-class ul.list li {
   border-top: 1px solid #ccc;
   border-bottom: 1px solid #ccc !important;
 }
+.teachers .next-class ul.list li p.teacher {
+  display: none;
+}
+@media (min-width: 768px) {
+  .teachers .next-class ul.list li time {
+    padding: 10px;
+    width: 30%;
+  }
+}
+
 ul.list {
   margin: 0;
   padding: 0;
