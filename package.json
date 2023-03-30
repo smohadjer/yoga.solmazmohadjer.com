@@ -16,15 +16,14 @@
 		"hbs": "node node_modules/build/bin/hbs.js",
 		"generateSchedules": "node app/bin/jsonToHtml.js",
 		"fetchNextClass": "node app/bin/fetchNextClass.js",
-		"watch": "node node_modules/build/bin/watch-content.js & node node_modules/build/bin/watch-css.js & node node_modules/build/bin/watch-js.js & node node_modules/build/bin/watch-img.js",
+		"watch": "node node_modules/build/bin/watch.js",
 		"server": "node node_modules/build/bin/server.js",
 		"serve": "npm run fetchNextClass && npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
-		"start": "npm run serve && npm run watch & npm run server",
-		"build": "npm run serve && rollup -c && npm run copyDist",
-		"build-api": "npm install && node app/bin/fetchDependencies.js"
+		"start": "npm run serve && npm run watch & npm run server -- public 5000",
+		"build": "npm run serve && rollup -c && npm run copyDist"
 	},
 	"devDependencies": {
-		"build": "git://github.com/smohadjer/build.git#0.1.11",
+		"build": "git://github.com/smohadjer/build.git#semver:^0.1.10",
 		"handlebars": "^4.7.7",
 		"moment": "2.29.4",
 		"express": "^4.16.2",
@@ -34,9 +33,10 @@
 		"hamburgers": "0.9.3",
 		"helpers": "git+https://github.com/smohadjer/helpers.git",
 		"youtube-playlist": "git://github.com/smohadjer/youtube-playlist.git",
-		"filterList": "git+https://github.com/smohadjer/filterList#3.1.0"
+		"filterList": "git+https://github.com/smohadjer/filterList#3.1.0",
+		"dotenv": "^16.0.3"
 	},
 	"engines": {
-		"node": ">=16.13.0"
+		"node": ">=18.15.0"
 	}
 }

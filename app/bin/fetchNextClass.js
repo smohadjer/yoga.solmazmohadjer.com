@@ -1,12 +1,20 @@
 const https = require('https');
+const http = require('http');
 const fs = require('fs');
-const sessions = require('../sessions');
+const dotenv = require ('dotenv');
+const sessions = require('./sessions');
 const json = sessions.getJson('app/assets/schedule.json');
 const teachers = json.config['active-teachers'];
+
+dotenv.config();
+
 const getNextClass = (teacherId) => {
-  //const url = `http://localhost:3000/api/endpoint/?id=${teacherId}`;
-  const url = `https://yoga-api-rho.vercel.app/api/endpoint/?id=${teacherId}`;
-  https.get(url, res => {
+  const protocol = process.env.protocol;
+  const domain = process.env.domain;
+  const url = `${protocol}://${domain}/api/endpoint/?id=${teacherId}`;
+  const server = (protocol === 'http') ? http : https;
+
+  server.get(url, res => {
     let data = [];
     //console.log('Status Code:', res.statusCode);
     res.on('data', chunk => {

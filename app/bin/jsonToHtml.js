@@ -1,7 +1,7 @@
 var fs = require('fs');
 var moment = require('moment');
 var handlebars = require('handlebars');
-var sessions = require('../sessions');
+var sessions = require('./sessions');
 
 var generateTeachersList = function (data, templateFile, targetFile) {
 	fs.readFile(templateFile, 'utf-8', function(error, source){

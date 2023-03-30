@@ -15,10 +15,5 @@
 			"source": "app/content",
 			"target": "public"
 		}
-	],
-	"api": [
-		"app/sessions.js",
-		"app/assets/schedule.json",
-		"app/resources/hbs/listing.hbs"
 	]
 }

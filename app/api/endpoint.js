@@ -16,14 +16,6 @@ const allowCors = fn => async (req, res) => {
 }
 
 const handler = (req, res) => {
-  /*
-  response.status(200).json({
-    body: request.body,
-    query: request.query,
-    cookies: request.cookies,
-  });
-  */
-
   const api = require('./api');
   const html = api.findById(req.query.id);
   res.status(200).send(html);

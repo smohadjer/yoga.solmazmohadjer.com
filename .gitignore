@@ -4,5 +4,5 @@ node_modules
 .DS_Store
 app/content/partials/schedule
 app/content/partials/class
-app/api/lib
 .vercel
+.env

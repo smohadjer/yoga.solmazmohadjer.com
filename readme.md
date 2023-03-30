@@ -12,9 +12,21 @@ The Website is a static HTML site hosted on GitHub Pages for free via a custom d
 - git clone https://github.com/smohadjer/yoga.solmazmohadjer.com.git yoga
 - cd yoga
 - npm install
+- create a .env file in root and put follwing in it:
+````
+protocol = 'http'
+domain = 'localhost:3000
+````
+- Run api locally (see below section)
 - npm start
+- Open http://localhost:5000/ in browser
+
 
 ## Running API locally
-- npm i -g vercel (installs Vercel CLI globally)
-- vercel dev (when asked for settings, use `app` as root directory and `api` as outpout directory and `npm run build-api` as build command)
+- Open a new terminal window to install Vercel cli: `npm i -g vercel`
+- `vercel dev` (when asked for settings go with default)
 - Try api at http://localhost:3000/api/endpoint/?id=solmaz
+
+## Deploying
+- on Vercel set environment variables "protocol" to https and "domain" to your vercel's production domain.
+- in terminal run: `vercel --prod`
