@@ -1,0 +1,47 @@
+.courses {
+  figure {
+    width: 50%;
+    float: left;
+    margin: 5px 15px 10px 0;
+  }
+
+  article {
+    padding-top: 30px;
+    border-bottom: dotted 1px #666;
+    margin-bottom: 40px;
+  }
+
+  article + article {
+    clear: both;
+  }
+
+  article:last-child {
+    border: 0;
+    margin-bottom: 0;
+  }
+
+  @media only screen and (min-width: 768px) {
+    article > div {
+      float: left;
+      width: 55%;
+      margin-bottom: 20px;
+    }
+
+    article aside {
+      margin-left: 60%;
+      width: 40%;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+    .toc {
+      clear: left;
+    }
+
+    .toc li {
+      list-style: none;
+      float: left;
+      margin-right: 30px;
+    }
+  }
+}
