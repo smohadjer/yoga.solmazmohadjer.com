@@ -75,14 +75,26 @@
 		}
 	}
 
-	ul.list {
-		margin-bottom: 10px;
+	.next-class {
+		margin-top: 2em;
 
-		li {
-			border-top: 1px solid #ccc;
-			border-bottom: 1px solid #ccc !important;
+		ul.list {
+			margin-bottom: 10px;
 
-			h1 {
+			li {
+				border-top: 1px solid #ccc;
+				border-bottom: 1px solid #ccc !important;
+
+				p.teacher {
+					display: none;
+				}
+
+				@media (min-width: 768px) {
+					time {
+							padding: 10px;
+							width: 30%;
+					}
+				}
 			}
 		}
 	}
