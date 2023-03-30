@@ -2,12 +2,12 @@
 	"config": {
 		"end": "2023-12-31",
 		"active-classes": ["hatha-at-info", "weekend", "108-surya-namaskar"],
-		"active-teachers": ["solmaz", "miguel", "anna"],
+		"active-teachers": ["solmaz", "miguel"],
 		"teachers-list": [
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
 			{"name": "Miguel", "id": "miguel", "hasPage": true},
 			{"name": "Anna", "id": "anna", "hasPage": true}
-		
+
 		],
 		"classes-list": [
 			{"name": "Hatha Yoga", "id": "hatha-at-info"},
@@ -55,7 +55,7 @@
 				{"date": "2021-08-12", "teacher-id": "anna"},
 				{"date": "2022-08-18", "teacher-id": "anna"},
 				{"date": "2022-09-01", "teacher-id": "anna"}
-				
+
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Thursday",
@@ -97,7 +97,7 @@
 				{"date": "2023-03-12"},
 				{"date": "2023-03-19"},
 				{"date": "2023-04-09"}
-				
+
 			]
 		},
 		{
@@ -111,7 +111,7 @@
 				{"date": "2023-06-19", "teacher-id": "solmaz"},
 				{"date": "2023-09-24", "teacher-id": "miguel"},
 				{"date": "2023-12-18", "teacher-id": "solmaz"}
-				
+
 			],
 			"start-time": "18:00",
 			"end-time": "19:00 CET",

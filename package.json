@@ -14,12 +14,12 @@
 		"copyDist": "node node_modules/build/bin/copydist.js",
 		"sass": "node node_modules/build/bin/sassTocss",
 		"hbs": "node node_modules/build/bin/hbs.js",
-		"generateSchedules": "node app/bin/jsonToHtml.js",
-		"fetchNextClass": "node app/bin/fetchNextClass.js",
+		"generateSchedules": "node app/api/jsonToHtml.js",
+		"fetchNextClass": "node app/api/fetchNextClass.js",
 		"watch": "node node_modules/build/bin/watch.js",
 		"server": "node node_modules/build/bin/server.js",
-		"serve": "npm run fetchNextClass && npm run generateSchedules && npm run compile && npm run copy && npm run sass && npm run hbs",
-		"start": "npm run serve && npm run watch & npm run server -- public 5000",
+		"serve": "npm run fetchNextClass & npm run generateSchedules & npm run compile && npm run copy && npm run sass && npm run hbs",
+		"start": "npm run serve && npm run watch & npm run server public",
 		"build": "npm run serve && rollup -c && npm run copyDist"
 	},
 	"devDependencies": {
@@ -33,8 +33,7 @@
 		"hamburgers": "0.9.3",
 		"helpers": "git+https://github.com/smohadjer/helpers.git",
 		"youtube-playlist": "git://github.com/smohadjer/youtube-playlist.git",
-		"filterList": "git+https://github.com/smohadjer/filterList#3.1.0",
-		"dotenv": "^16.0.3"
+		"filterList": "git+https://github.com/smohadjer/filterList#3.1.0"
 	},
 	"engines": {
 		"node": ">=18.15.0"

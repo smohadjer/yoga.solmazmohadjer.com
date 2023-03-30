@@ -1,4 +1,4 @@
-const sessions = require('../bin/sessions.js');
+const sessions = require('./sessions.js');
 const path = require('path');
 
 exports.findById = function(teacherId) {

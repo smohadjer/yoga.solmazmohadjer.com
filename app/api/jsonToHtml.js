@@ -1,43 +1,29 @@
 var fs = require('fs');
-var moment = require('moment');
 var handlebars = require('handlebars');
 var sessions = require('./sessions');
 
 var generateTeachersList = function (data, templateFile, targetFile) {
-	fs.readFile(templateFile, 'utf-8', function(error, source){
-		var template = handlebars.compile(source);
-		var teacherList = data.config['teachers-list'].filter(function(value) {
-			return data.config['active-teachers'].indexOf(value.id) !== -1;
-		});
-		var html = template({
-			'list': teacherList
-		});
-
-		fs.writeFile(targetFile, html, function(err) {
-			if (err) {
-				return console.log(err);
-			}
-		});
+	const source = fs.readFileSync(templateFile, {encoding: 'utf-8'});
+	var template = handlebars.compile(source);
+	var teacherList = data.config['teachers-list'].filter(function(value) {
+		return data.config['active-teachers'].indexOf(value.id) !== -1;
 	});
+	var html = template({
+		'list': teacherList
+	});
+	fs.writeFileSync(targetFile, html);
 };
 
 var generateClassList = function (data, templateFile, targetFile) {
-	fs.readFile(templateFile, 'utf-8', function(error, source){
-		var template = handlebars.compile(source);
-		var classList = data.config['classes-list'].filter(function(value) {
-			return data.config['active-classes'].indexOf(value.id) !== -1;
-		});
-
-		var html = template({
-			'list': classList
-		});
-
-		fs.writeFile(targetFile, html, function(err) {
-			if (err) {
-				return console.log(err);
-			}
-		});
+	const source = fs.readFileSync(templateFile, {encoding: 'utf-8'});
+	var template = handlebars.compile(source);
+	var classList = data.config['classes-list'].filter(function(value) {
+		return data.config['active-classes'].indexOf(value.id) !== -1;
 	});
+	var html = template({
+		'list': classList
+	});
+	fs.writeFileSync(targetFile, html);
 };
 
 if (!fs.existsSync('app/content/partials/schedule')){
