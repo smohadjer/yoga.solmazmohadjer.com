@@ -8,6 +8,8 @@ on:
       - master
     paths:
       - app/assets/schedule.json
+      - app/api/*
+      - app/resources/hbs/*
 jobs:
   Deploy-Production:
     runs-on: ubuntu-latest
