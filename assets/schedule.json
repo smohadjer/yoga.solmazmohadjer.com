@@ -24,7 +24,7 @@
 			"repeats": true,
 			"dates": [
 				{"date": "2022-06-06", "teacher-id": "anna"},
-				{"date": "2022-10-31", "teacher-id": "anna"}
+				{"date": "2023-04-24", "teacher-id": "anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Monday",
@@ -32,13 +32,14 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2023-04-30",
+			"end-date": "2023-05-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-12-19"},
 				{"date": "2022-12-26"},
-				{"date": "2023-03-13"},
-				{"date": "2023-03-20"}
+				{"date": "2023-04-24"},
+				{"date": "2023-05-01"},
+				{"date": "2023-05-29"}
 
 			]
 		},
@@ -90,7 +91,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2023-04-30",
+			"end-date": "2023-05-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-12-25"},
