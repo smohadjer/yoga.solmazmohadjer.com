@@ -32,7 +32,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2023-05-31",
+			"end-date": "2023-06-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-12-19"},
@@ -91,7 +91,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2023-05-31",
+			"end-date": "2023-06-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2022-12-25"},
