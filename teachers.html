@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="en">
-	<head>
+  <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>Solmaz Mohadjer | Yoga in Tübingen</title>
@@ -10,25 +10,25 @@
     
     
     <link rel="stylesheet" href="/resources/css/styles.css">
-	</head>
-	<body>
-	  
-	  		<header class="clearfix">
-	  			<a class="logo-icon" href="index.html"><img width="60" src="/assets/images/logo.svg" alt="Home" /></a>
-	  			<div class="logo">
-	  				<p class="title">Open Yoga</p>
-	  				<p class="tagline">No registration. No fees.</p>
-	  			</div>
-	  				<nav>
-	  					<ul class="clearfix">
-	  						<li ><a href="/index.html">Home</a></li>
-	  						<li ><a href="/schedule.html">Schedule</a></li>
-	  						<li ><a href="/courses.html">Courses</a></li>
-	  						<li class="selected"><a href="/teachers.html">Teachers</a></li>
-	  						<li ><a href="/resources.html">Resources</a></li>
-	  					</ul>
-	  				</nav>
-	  		</header>
+  </head>
+  <body>
+    
+    		<header class="clearfix">
+    			<a class="logo-icon" href="index.html"><img width="60" src="/assets/images/logo.svg" alt="Home" /></a>
+    			<div class="logo">
+    				<p class="title">Open Yoga</p>
+    				<p class="tagline">No registration. No fees.</p>
+    			</div>
+    				<nav>
+    					<ul class="clearfix">
+    						<li ><a href="/index.html">Home</a></li>
+    						<li ><a href="/schedule.html">Schedule</a></li>
+    						<li ><a href="/courses.html">Courses</a></li>
+    						<li class="selected"><a href="/teachers.html">Teachers</a></li>
+    						<li ><a href="/resources.html">Resources</a></li>
+    					</ul>
+    				</nav>
+    		</header>
     <div class="main teachers clearfix" role="main">
       <article id="solmaz" class="teacher clearfix">
       	<h2>Solmaz Mohadjer</h2>
@@ -178,43 +178,42 @@
     					<a href="resources.html">Yoga resources</a></p>
     			</aside>
     		</footer>
-    <script src="/resources/js/lib/filterList.js"></script>
     <script src="/resources/js/lib/ytplayer.js"></script>
     <script type="module" src="/resources/js/main.js"></script>
     
 
-		<!-- The api that returns next class of a teacher is now invoked during build via node.js so we don't need javascript to call the api anymore. -->
-		<!--
+    <!-- The api that returns next class of a teacher is now invoked during build via node.js so we don't need javascript to call the api anymore. -->
+    <!--
     <script>
-			var $uls = document.querySelectorAll('div.teachers ul.list');
-			if ($uls) {
-				[...$uls].forEach(function(ul, key) {
-					var url = ul.getAttribute('data-api');
-					var request = new XMLHttpRequest();
-					request.open('GET', url, true);
-					request.onload = function() {
-						if (request.status >= 200 && request.status < 400) {
-							var resp = request.responseText;
-							if (resp.length > 0) {
-								ul.parentNode.classList.remove('hidden');
-							}
-							ul.innerHTML = resp;
-							if (ul.querySelector('li') === null) {
-								ul.parentNode.classList.add('teacher__section--empty');
-							}
-						} else {
-							// We reached our target server, but it returned an error
-							console.log(request.status);
-						}
-					};
+      var $uls = document.querySelectorAll('div.teachers ul.list');
+      if ($uls) {
+        [...$uls].forEach(function(ul, key) {
+          var url = ul.getAttribute('data-api');
+          var request = new XMLHttpRequest();
+          request.open('GET', url, true);
+          request.onload = function() {
+            if (request.status >= 200 && request.status < 400) {
+              var resp = request.responseText;
+              if (resp.length > 0) {
+                ul.parentNode.classList.remove('hidden');
+              }
+              ul.innerHTML = resp;
+              if (ul.querySelector('li') === null) {
+                ul.parentNode.classList.add('teacher__section--empty');
+              }
+            } else {
+              // We reached our target server, but it returned an error
+              console.log(request.status);
+            }
+          };
 
-					request.onerror = function() {
-					  // There was a connection error of some sort
-					};
-					request.send();
-				});
-			}
-		</script>
-		-->
-	</body>
+          request.onerror = function() {
+            // There was a connection error of some sort
+          };
+          request.send();
+        });
+      }
+    </script>
+    -->
+  </body>
 </html>
