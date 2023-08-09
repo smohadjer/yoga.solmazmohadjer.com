@@ -32,7 +32,7 @@
 	"dependencies": {
 		"hamburgers": "0.9.3",
 		"helpers": "git+https://github.com/smohadjer/helpers.git",
-		"youtube-playlist": "git://github.com/smohadjer/youtube-playlist.git",
+		"youtube-playlist": "git://github.com/smohadjer/youtube-playlist.git#1.2.0",
 		"filterList": "git://github.com/smohadjer/filterList.git#3.2.2"
 	},
 	"engines": {
