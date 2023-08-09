@@ -40,17 +40,9 @@ To make a donation, <a href="mailto:solmaz.mohadjer@gmail.com"><b>contact us for
 	let youTubeIframeAPIIsReady = (typeof YT.Player === 'undefined') ? false : true;
 	let youtubePlaylistApiIsReady = false;
 
-	function onYouTubeIframeAPIReady() {
-		console.log('onYouTubeIframeAPIReady');
+	window.onYouTubeIframeAPIReady = () => {
 		youTubeIframeAPIIsReady = true;
-		if (youTubeIframeAPIIsReady && youtubePlaylistApiIsReady) {
-			initYTPlayer();
-		}
 	}
-</script>
-
-<script type="module">
-	import YTPlayer from '/resources/js/lib/ytplayer.min.js';
 
 	gapi.load('client', function() {
 		gapi.client.init({
@@ -58,13 +50,19 @@ To make a donation, <a href="mailto:solmaz.mohadjer@gmail.com"><b>contact us for
 			discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
 		}).then(function() {
 			youtubePlaylistApiIsReady = true;
-			console.log('youtubePlaylistApiIsReady');
-
-			if (youTubeIframeAPIIsReady && youtubePlaylistApiIsReady) {
-				initYTPlayer();
-			}
 		});
 	});
+</script>
+
+<script type="module">
+	import YTPlayer from '/resources/js/lib/ytplayer.min.js';
+
+	const myInterval = window.setInterval(function() {
+		if (youTubeIframeAPIIsReady && youtubePlaylistApiIsReady) {
+			clearInterval(myInterval);
+			initYTPlayer();
+		}
+	}, 100);
 
 	function initYTPlayer() {
 		console.log('initYTPlayer');
