@@ -51,8 +51,6 @@
       		<p class="ytplayer-description"></p>
       	</div>
       </div>
-      <script src="https://www.youtube.com/iframe_api"></script>
-      <script src="https://apis.google.com/js/api.js"></script>
       <hr>
       <div class="">
       	<h2>Listen to our audio classes</h2>
@@ -68,12 +66,23 @@
       	</ul>
       </div>
       
+      <script src="https://www.youtube.com/iframe_api"></script>
+      <script src="https://apis.google.com/js/api.js"></script>
+      <script>
+      	let youTubeIframeAPIIsReady = (typeof YT.Player === 'undefined') ? false : true;
+      	let youtubePlaylistApiIsReady = false;
+      
+      	function onYouTubeIframeAPIReady() {
+      		console.log('onYouTubeIframeAPIReady');
+      		youTubeIframeAPIIsReady = true;
+      		if (youTubeIframeAPIIsReady && youtubePlaylistApiIsReady) {
+      			initYTPlayer();
+      		}
+      	}
+      </script>
       
       <script type="module">
       	import YTPlayer from '/resources/js/lib/ytplayer.min.js';
-      
-      	let youTubeIframeAPIIsReady = (typeof YT.Player === 'undefined') ? false : true;
-      	let youtubePlaylistApiIsReady = false;
       
       	gapi.load('client', function() {
       		gapi.client.init({
@@ -81,6 +90,7 @@
       			discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/youtube/v3/rest']
       		}).then(function() {
       			youtubePlaylistApiIsReady = true;
+      			console.log('youtubePlaylistApiIsReady');
       
       			if (youTubeIframeAPIIsReady && youtubePlaylistApiIsReady) {
       				initYTPlayer();
@@ -88,14 +98,8 @@
       		});
       	});
       
-      	function onYouTubeIframeAPIReady() {
-      		youTubeIframeAPIIsReady = true;
-      		if (youTubeIframeAPIIsReady && youtubePlaylistApiIsReady) {
-      			initYTPlayer();
-      		}
-      	}
-      
       	function initYTPlayer() {
+      		console.log('initYTPlayer');
       		function replaceURLWithHTMLLinks(text) {
       			var exp = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/i;
       			return text.replace(exp,"<a href='$1'>See lesson plan</a>");
