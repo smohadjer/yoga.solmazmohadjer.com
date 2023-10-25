@@ -7,7 +7,7 @@
 		"js": [
 			"node_modules/handlebars/dist/handlebars.runtime.js",
 			"node_modules/youtube-playlist/dist/ytplayer.min.js",
-			"node_modules/filterList/dist/filterList.min.js"
+			"node_modules/filterlist/dist/filterList.min.js"
 		]
 	},
 	"pages": [
