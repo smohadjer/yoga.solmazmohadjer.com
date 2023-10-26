@@ -13,7 +13,7 @@
     {{> partials/scripts }}
     {{#if (eq this.pageId 'schedule')}}
       <script type="module">
-        import FilterList from '/resources/js/lib/filterList.min.js';
+        import FilterList from '/resources/js/lib/filterlist.min.js';
         const listElement = document.querySelector('div.schedule ul.list');
         if (listElement) {
           const filter = new FilterList({
