@@ -33,7 +33,7 @@
 		"hamburgers": "0.9.3",
 		"helpers": "git+https://github.com/smohadjer/helpers.git",
 		"youtube-playlist": "git://github.com/smohadjer/youtube-playlist.git#1.2.0",
-		"filterlist": "^3.3.0"
+		"filterlist": "^3.4.3"
 	},
 	"engines": {
 		"node": ">=18.15.0"
