@@ -95,7 +95,8 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2024-01-14"},
-				{"date": "2024-01-28"}
+				{"date": "2024-09-22"},
+				{"date": "2024-12-22"}
 			]
 		},
 		{
@@ -105,8 +106,10 @@
 			"address": "Online",
 			"repeats": false,
 			"dates": [
-				{"date": "2024-03-18", "teacher-id": "solmaz"}
-
+				{"date": "2024-03-18", "teacher-id": "solmaz"},
+				{"date": "2024-06-17", "teacher-id": "solmaz"},
+				{"date": "2024-09-22", "teacher-id": "miguel"},
+				{"date": "2024-12-22", "teacher-id": "miguel"}
 			],
 			"start-time": "18:00",
 			"end-time": "19:00 CET",
