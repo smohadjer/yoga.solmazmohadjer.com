@@ -32,14 +32,14 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2024-02-29",
+			"end-date": "2024-03-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2023-12-11"},
 				{"date": "2023-12-18"},
 				{"date": "2023-12-25"},
 				{"date": "2024-01-01"},
-				{"date": "2024-01-15"}
+				{"date": "2024-03-18"}
 
 			]
 		},
@@ -91,7 +91,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2024-02-29",
+			"end-date": "2024-03-31",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2024-01-14"},
@@ -105,10 +105,7 @@
 			"address": "Online",
 			"repeats": false,
 			"dates": [
-				{"date": "2023-03-20", "teacher-id": "solmaz"},
-				{"date": "2023-06-19", "teacher-id": "solmaz"},
-				{"date": "2023-09-24", "teacher-id": "solmaz"},
-				{"date": "2023-12-18", "teacher-id": "solmaz"}
+				{"date": "2024-03-18", "teacher-id": "solmaz"}
 
 			],
 			"start-time": "18:00",
