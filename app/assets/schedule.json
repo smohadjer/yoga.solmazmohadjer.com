@@ -32,7 +32,7 @@
 			"end-time": "19:00 CEST",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2024-05-31",
+			"end-date": "2024-06-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2024-04-08"},
@@ -89,7 +89,7 @@
 			"end-time": "19:00 CEST",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2024-05-31",
+			"end-date": "2024-06-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2024-05-12"},
