@@ -81,8 +81,7 @@
 				{"date": "2021-07-18", "teacher-id": "miguel"},
 				{"date": "2021-08-01", "teacher-id": "miguel"},
 				{"date": "2021-08-08", "teacher-id": "miguel"},
-				{"date": "2021-08-15", "teacher-id": "miguel"},
-				{"date": "2023-06-11", "teacher-id": "anna"}
+				{"date": "2024-07-13", "teacher-id": "miguel"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Sunday",
@@ -94,6 +93,7 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2024-07-07"},
+				{"date": "2024-07-14"},
 				{"date": "2024-08-18"},
 				{"date": "2024-09-15"},
 				{"date": "2024-12-15"}
