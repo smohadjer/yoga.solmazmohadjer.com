@@ -101,6 +101,28 @@
 			]
 		},
 		{
+			"title": "Special Yoga",
+			"class-id": "special",
+			"level": "All",
+			"address": "Online",
+			"repeats": false,
+			"dates": [
+				{"date": "2024-07-13", "teacher-id": "miguel"}
+			],
+			"repeat-cycle": "week",
+			"day-of-week": "Saturday",
+			"start-time": "18:00",
+			"end-time": "19:00 CEST",
+			"teacher-id": "miguel",
+			"start-date": null,
+			"end-date": "2024-08-31",
+			"booking-url": null,
+			"cancelations": [
+				{"date": "2024-07-07"}
+				
+			]
+		},
+		{
 			"title": "108 Sun Salutations",
 			"class-id": "108-surya-namaskar",
 			"level": "Intermediate/Advanced",
