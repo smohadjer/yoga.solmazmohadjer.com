@@ -60,12 +60,12 @@
 
 			],
 			"repeat-cycle": "week",
-			"day-of-week": "Thursday",
+			"day-of-week": "Monday",
 			"start-time": "18:00",
-			"end-time": "18:30 CEST",
-			"teacher-id": "miguel",
+			"end-time": "19:00 CEST",
+			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2022-03-31",
+			"end-date": "2024-11-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2023-01-01"}
@@ -91,7 +91,7 @@
 			"end-time": "19:00 CEST",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2024-10-31",
+			"end-date": "2024-11-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2024-10-06"},
