@@ -6,6 +6,8 @@ on:
   schedule:
    # runs every night at 11:20 pm utc time to ensure past events don't show on schedule.html
     - cron: '30 18 * * *'
+permissions:
+  contents: write
 jobs:
   build-and-deploy-pages:
     runs-on: ubuntu-latest
@@ -19,7 +21,7 @@ jobs:
           npm run build
 
       - name: Deploy 🚀
-        uses: smohadjer/github-pages-deploy-action@4.1.7
+        uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages # The branch the action should deploy to.
           folder: dist # The folder the action should deploy.
