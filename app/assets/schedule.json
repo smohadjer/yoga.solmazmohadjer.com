@@ -2,7 +2,7 @@
 	"config": {
 		"end": "2025-12-31",
 		"active-classes": ["hatha-at-info", "weekend", "108-surya-namaskar"],
-		"active-teachers": ["solmaz", "miguel"],
+		"active-teachers": ["solmaz", "miguel", "anna"],
 		"teachers-list": [
 			{"name": "Solmaz", "id": "solmaz", "hasPage": true},
 			{"name": "Miguel", "id": "miguel", "hasPage": true},
