@@ -23,8 +23,8 @@
 			"address": "Seelhausgasse 31",
 			"repeats": true,
 			"dates": [
-				{"date": "2022-06-06", "teacher-id": "anna"},
-				{"date": "2023-04-24", "teacher-id": "anna"}
+				{"date": "2025-09-08", "teacher-id": "anna"},
+				{"date": "2025-09-15", "teacher-id": "anna"}
 			],
 			"repeat-cycle": "week",
 			"day-of-week": "Monday",
@@ -36,8 +36,6 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2025-03-24"},
-				{"date": "2025-09-08"},
-				{"date": "2025-09-15"},
 				{"date": "2025-09-22"}
 
 			]
