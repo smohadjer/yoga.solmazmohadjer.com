@@ -61,13 +61,15 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "solmaz",
 			"start-date": null,
-			"end-date": "2026-03-31",
+			"end-date": "2026-04-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2026-01-05"},
 				{"date": "2026-01-12"},
 				{"date": "2026-03-23"},
 				{"date": "2026-03-30"},
+				{"date": "2026-04-06"},
+				{"date": "2026-05-04"},
 				{"date": "2026-09-21"},
 				{"date": "2026-12-21"}
 			]
@@ -91,7 +93,7 @@
 			"end-time": "19:00 CET",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2026-03-31",
+			"end-date": "2026-04-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2026-02-08"},
@@ -116,7 +118,7 @@
 			"end-time": "19:00 CEST",
 			"teacher-id": "miguel",
 			"start-date": null,
-			"end-date": "2024-08-31",
+			"end-date": "2024-04-30",
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2024-07-07"}
