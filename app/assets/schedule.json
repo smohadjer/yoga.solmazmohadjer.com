@@ -94,6 +94,7 @@
 			"booking-url": null,
 			"cancelations": [
 				{"date": "2026-05-24"},
+				{"date": "2026-05-31"},
 				{"date": "2026-06-21"}
 				
 			]
