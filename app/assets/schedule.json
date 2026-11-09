@@ -93,7 +93,8 @@
 			"end-date": "2026-12-01",
 			"booking-url": null,
 			"cancelations": [
-				{"date": "2026-09-20"}
+				{"date": "2026-09-20"},
+				{"date": "2026-11-22"}
 				
 				
 			]
